@@ -1,0 +1,5 @@
+WEBPACKER_DEV_SERVER_HOST=webpacker
+NODE_ENV=development
+RAILS_ENV=development
+RACK_ENV=development
+RAILS_LOGGER_TO_STDOUT=true

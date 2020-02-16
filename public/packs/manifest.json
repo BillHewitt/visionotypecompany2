@@ -1,0 +1,168 @@
+{
+  "app.css": "/packs/css/app-1d89f01d.css",
+  "app.css.map": "/packs/css/app-1d89f01d.css.map",
+  "app.js": "/packs/js/app-6893a1a22a245e70c712.js",
+  "app.js.map": "/packs/js/app-6893a1a22a245e70c712.js.map",
+  "application.js": "/packs/js/application-ac37f1181d96c62326eb.js",
+  "application.js.map": "/packs/js/application-ac37f1181d96c62326eb.js.map",
+  "dark-mode.css": "/packs/css/dark-mode-82bd09af.css",
+  "dark-mode.css.map": "/packs/css/dark-mode-82bd09af.css.map",
+  "dark-mode.js": "/packs/js/dark-mode-5b39949c9d1ff6870112.js",
+  "dark-mode.js.map": "/packs/js/dark-mode-5b39949c9d1ff6870112.js.map",
+  "entrypoints": {
+    "app": {
+      "css": [
+        "/packs/css/app-1d89f01d.css"
+      ],
+      "js": [
+        "/packs/js/app-6893a1a22a245e70c712.js"
+      ],
+      "css.map": [
+        "/packs/css/app-1d89f01d.css.map"
+      ],
+      "js.map": [
+        "/packs/js/app-6893a1a22a245e70c712.js.map"
+      ]
+    },
+    "application": {
+      "js": [
+        "/packs/js/application-ac37f1181d96c62326eb.js"
+      ],
+      "js.map": [
+        "/packs/js/application-ac37f1181d96c62326eb.js.map"
+      ]
+    },
+    "dark-mode": {
+      "css": [
+        "/packs/css/dark-mode-82bd09af.css"
+      ],
+      "js": [
+        "/packs/js/dark-mode-5b39949c9d1ff6870112.js"
+      ],
+      "css.map": [
+        "/packs/css/dark-mode-82bd09af.css.map"
+      ],
+      "js.map": [
+        "/packs/js/dark-mode-5b39949c9d1ff6870112.js.map"
+      ]
+    },
+    "light-mode": {
+      "css": [
+        "/packs/css/light-mode-7f7c6aea.css"
+      ],
+      "js": [
+        "/packs/js/light-mode-a12e92bb46b34079a691.js"
+      ],
+      "css.map": [
+        "/packs/css/light-mode-7f7c6aea.css.map"
+      ],
+      "js.map": [
+        "/packs/js/light-mode-a12e92bb46b34079a691.js.map"
+      ]
+    }
+  },
+  "light-mode.css": "/packs/css/light-mode-7f7c6aea.css",
+  "light-mode.css.map": "/packs/css/light-mode-7f7c6aea.css.map",
+  "light-mode.js": "/packs/js/light-mode-a12e92bb46b34079a691.js",
+  "light-mode.js.map": "/packs/js/light-mode-a12e92bb46b34079a691.js.map",
+  "media/cerebrisans/cerebrisans-bold.eot": "/packs/media/cerebrisans/cerebrisans-bold-43a5f55c.eot",
+  "media/cerebrisans/cerebrisans-bold.svg": "/packs/media/cerebrisans/cerebrisans-bold-9d5cea30.svg",
+  "media/cerebrisans/cerebrisans-bold.ttf": "/packs/media/cerebrisans/cerebrisans-bold-4180e23f.ttf",
+  "media/cerebrisans/cerebrisans-bold.woff": "/packs/media/cerebrisans/cerebrisans-bold-73d4b835.woff",
+  "media/cerebrisans/cerebrisans-book.eot": "/packs/media/cerebrisans/cerebrisans-book-c3598e71.eot",
+  "media/cerebrisans/cerebrisans-book.svg": "/packs/media/cerebrisans/cerebrisans-book-74558f7a.svg",
+  "media/cerebrisans/cerebrisans-book.ttf": "/packs/media/cerebrisans/cerebrisans-book-f4cb1154.ttf",
+  "media/cerebrisans/cerebrisans-book.woff": "/packs/media/cerebrisans/cerebrisans-book-fbb210a6.woff",
+  "media/cerebrisans/cerebrisans-medium.eot": "/packs/media/cerebrisans/cerebrisans-medium-c01e4a7d.eot",
+  "media/cerebrisans/cerebrisans-medium.svg": "/packs/media/cerebrisans/cerebrisans-medium-189ee2de.svg",
+  "media/cerebrisans/cerebrisans-medium.ttf": "/packs/media/cerebrisans/cerebrisans-medium-66f3c3ae.ttf",
+  "media/cerebrisans/cerebrisans-medium.woff": "/packs/media/cerebrisans/cerebrisans-medium-abe53ace.woff",
+  "media/cerebrisans/cerebrisans-regular.eot": "/packs/media/cerebrisans/cerebrisans-regular-e63b280f.eot",
+  "media/cerebrisans/cerebrisans-regular.svg": "/packs/media/cerebrisans/cerebrisans-regular-c2f19932.svg",
+  "media/cerebrisans/cerebrisans-regular.ttf": "/packs/media/cerebrisans/cerebrisans-regular-91bff5f0.ttf",
+  "media/cerebrisans/cerebrisans-regular.woff": "/packs/media/cerebrisans/cerebrisans-regular-548f0235.woff",
+  "media/cerebrisans/cerebrisans-semibold.eot": "/packs/media/cerebrisans/cerebrisans-semibold-2a1663dd.eot",
+  "media/cerebrisans/cerebrisans-semibold.svg": "/packs/media/cerebrisans/cerebrisans-semibold-3dca02ed.svg",
+  "media/cerebrisans/cerebrisans-semibold.ttf": "/packs/media/cerebrisans/cerebrisans-semibold-25aa37ee.ttf",
+  "media/cerebrisans/cerebrisans-semibold.woff": "/packs/media/cerebrisans/cerebrisans-semibold-16e9c1c6.woff",
+  "media/feather/Feather.svg": "/packs/media/feather/Feather-65d68bd4.svg",
+  "media/feather/Feather.ttf": "/packs/media/feather/Feather-fe159434.ttf",
+  "media/feather/Feather.woff": "/packs/media/feather/Feather-d9c23068.woff",
+  "media/images/avatars/profiles/avatar-1.jpg": "/packs/media/images/avatars/profiles/avatar-1-b42f730bc711cff2f549ff3a1e515408.jpg",
+  "media/images/avatars/profiles/avatar-2.jpg": "/packs/media/images/avatars/profiles/avatar-2-a6ecdbaaf952c7ea6eb63f73b0ffd5bb.jpg",
+  "media/images/avatars/profiles/avatar-3.jpg": "/packs/media/images/avatars/profiles/avatar-3-79d5ea92dc98be7100296929ecc09b58.jpg",
+  "media/images/avatars/profiles/avatar-4.jpg": "/packs/media/images/avatars/profiles/avatar-4-e5f2b1297fe89ea2709d9a0f352965bf.jpg",
+  "media/images/avatars/profiles/avatar-5.jpg": "/packs/media/images/avatars/profiles/avatar-5-f99be24352700d68fae6976fc4b7bb71.jpg",
+  "media/images/avatars/profiles/avatar-6.jpg": "/packs/media/images/avatars/profiles/avatar-6-f850da0931a2aa12b048c8d9e9447a35.jpg",
+  "media/images/avatars/profiles/avatar-7.jpg": "/packs/media/images/avatars/profiles/avatar-7-ca42356249973b291183bff0ee1f0cbe.jpg",
+  "media/images/avatars/profiles/avatar-8.jpg": "/packs/media/images/avatars/profiles/avatar-8-5da7023ad0b06b5f37ddd0ff30aefc8f.jpg",
+  "media/images/avatars/projects/project-1.jpg": "/packs/media/images/avatars/projects/project-1-95967469cc043de193c28591fab95f9c.jpg",
+  "media/images/avatars/projects/project-2.jpg": "/packs/media/images/avatars/projects/project-2-d8dacaa4dac75725e5ced6390c3594f0.jpg",
+  "media/images/avatars/projects/project-3.jpg": "/packs/media/images/avatars/projects/project-3-1dbb2cdf493b5bed9e93df80a04685fa.jpg",
+  "media/images/avatars/projects/project-4.jpg": "/packs/media/images/avatars/projects/project-4-0168b1be4132a0add4e2165a000f3c1d.jpg",
+  "media/images/avatars/projects/project-5.jpg": "/packs/media/images/avatars/projects/project-5-01cf68a06c9f4a5cb39d87f825e43cc6.jpg",
+  "media/images/avatars/projects/project-6.jpg": "/packs/media/images/avatars/projects/project-6-07d6f9a700f1b0c6daff40f1d9f7e4a1.jpg",
+  "media/images/avatars/projects/project-7.jpg": "/packs/media/images/avatars/projects/project-7-cc7ea518bf188f50464f27aa69628c66.jpg",
+  "media/images/avatars/projects/project-8.jpg": "/packs/media/images/avatars/projects/project-8-4b0d2fda3bd558caf3504bdab06624f1.jpg",
+  "media/images/avatars/teams/team-logo-1.jpg": "/packs/media/images/avatars/teams/team-logo-1-87e1b12a8eeef2c15d231be1669e7b39.jpg",
+  "media/images/avatars/teams/team-logo-2.jpg": "/packs/media/images/avatars/teams/team-logo-2-1dc7641253ad60bb54ee74ec0a9e63ed.jpg",
+  "media/images/avatars/teams/team-logo-3.jpg": "/packs/media/images/avatars/teams/team-logo-3-0237be81ebcd574410a29a2d80b10656.jpg",
+  "media/images/avatars/teams/team-logo-4.jpg": "/packs/media/images/avatars/teams/team-logo-4-38387cc50faeb39a329a0e773a6855fe.jpg",
+  "media/images/avatars/teams/team-logo-5.jpg": "/packs/media/images/avatars/teams/team-logo-5-1f8abd30ac26e0b88ad171324eb4b28e.jpg",
+  "media/images/avatars/teams/team-logo-6.jpg": "/packs/media/images/avatars/teams/team-logo-6-f3d8a2410c66019dfa34205bacc1b0a2.jpg",
+  "media/images/avatars/teams/team-logo-7.jpg": "/packs/media/images/avatars/teams/team-logo-7-a79df7d4635ee64a149766f657b2e0bf.jpg",
+  "media/images/avatars/teams/team-logo-8.jpg": "/packs/media/images/avatars/teams/team-logo-8-8450a534c9e0de1fb3f29466ea1e9bc1.jpg",
+  "media/images/brands/DCA.png": "/packs/media/images/brands/DCA-02f80a36006108df5990dc4c31910f3e.png",
+  "media/images/brands/apple.png": "/packs/media/images/brands/apple-5eb27b6765b5a8a884699f2ca4da76e6.png",
+  "media/images/brands/asos.png": "/packs/media/images/brands/asos-a8609d63b7cde14724beecf1945799da.png",
+  "media/images/brands/calm.png": "/packs/media/images/brands/calm-622d27e2701e6ae45e8881da20e31fc3.png",
+  "media/images/brands/credit.png": "/packs/media/images/brands/credit-c63949f453af9fcfcf69569a797cf101.png",
+  "media/images/brands/deliveroo.png": "/packs/media/images/brands/deliveroo-4ee063fa0c79fed6b03b506d6c4154fc.png",
+  "media/images/brands/h-m.png": "/packs/media/images/brands/h-m-619404ea682e06da24398625601e8b5d.png",
+  "media/images/brands/ha.png": "/packs/media/images/brands/ha-16e785ca0184ba5a590f7e7496846940.png",
+  "media/images/brands/hastee.png": "/packs/media/images/brands/hastee-b0a73800fc39902b06fa43669490b72f.png",
+  "media/images/brands/logos.png": "/packs/media/images/brands/logos-2956ebf27c8491c7267c570dd3cae22e.png",
+  "media/images/brands/magpie.png": "/packs/media/images/brands/magpie-be2e422392811203824cdfe737b79bef.png",
+  "media/images/brands/nero.png": "/packs/media/images/brands/nero-5a80b99bc65c3d29c025926366d4e37f.png",
+  "media/images/brands/odeon.png": "/packs/media/images/brands/odeon-85aad3999b976a4b4bc9a53cdeda23f6.png",
+  "media/images/covers/auth-side-cover.jpg": "/packs/media/images/covers/auth-side-cover-15570f310c488ca660e833077c867a7c.jpg",
+  "media/images/covers/header-cover.jpg": "/packs/media/images/covers/header-cover-7259dc23b16a289d01ec0b22750705d4.jpg",
+  "media/images/covers/profile-cover-1.jpg": "/packs/media/images/covers/profile-cover-1-4c69a8826433a7c7c79757b1ed3dcf08.jpg",
+  "media/images/covers/profile-cover-2.jpg": "/packs/media/images/covers/profile-cover-2-806d8db0e40a9203bb215b9c3b184f0d.jpg",
+  "media/images/covers/profile-cover-3.jpg": "/packs/media/images/covers/profile-cover-3-a4c3e73bcabc1406f48c49a7fffcfd53.jpg",
+  "media/images/covers/profile-cover-4.jpg": "/packs/media/images/covers/profile-cover-4-906df6da1efef926a997747c2bbb3a68.jpg",
+  "media/images/covers/profile-cover-5.jpg": "/packs/media/images/covers/profile-cover-5-6e9c1b0747149b1d4dc106066c776d82.jpg",
+  "media/images/covers/profile-cover-6.jpg": "/packs/media/images/covers/profile-cover-6-a6da075e7479048d7653ac311adf0568.jpg",
+  "media/images/covers/profile-cover-7.jpg": "/packs/media/images/covers/profile-cover-7-4ee620d02f2459f4a49f582d4bc38923.jpg",
+  "media/images/covers/profile-cover-8.jpg": "/packs/media/images/covers/profile-cover-8-ab7e8c09afc2e36c87b3ac99f9318ed9.jpg",
+  "media/images/covers/sidebar-cover.jpg": "/packs/media/images/covers/sidebar-cover-67800023c9069518ebacc46bf7a518d9.jpg",
+  "media/images/covers/team-cover.jpg": "/packs/media/images/covers/team-cover-8ef39e2f7f1dd5e6f2eebf983187e02e.jpg",
+  "media/images/files/file-1.jpg": "/packs/media/images/files/file-1-6a9e16bf196d333e0949c2befdf6c60d.jpg",
+  "media/images/files/file-2.jpg": "/packs/media/images/files/file-2-6f5a9f762d8553e8f820e6b271f12a06.jpg",
+  "media/images/files/file-3.jpg": "/packs/media/images/files/file-3-25d168d07d998a0c4ec8723eeaf6d64f.jpg",
+  "media/images/files/file-4.jpg": "/packs/media/images/files/file-4-b0d6d7f0484f1d58b3dc708619a14bb2.jpg",
+  "media/images/illustrations/coworking.svg": "/packs/media/images/illustrations/coworking-b22ecef104617474e48081a084e8d6f8.svg",
+  "media/images/illustrations/designer-life.svg": "/packs/media/images/illustrations/designer-life-82bd2eeb00163c56e21ab01c17b6e765.svg",
+  "media/images/illustrations/earn.svg": "/packs/media/images/illustrations/earn-8fe8b2ea80671c8e2da6731323365d8b.svg",
+  "media/images/illustrations/fitness.svg": "/packs/media/images/illustrations/fitness-99e3eb26e532f4850ea7a60082efcd92.svg",
+  "media/images/illustrations/happiness.svg": "/packs/media/images/illustrations/happiness-ef8d9cfd01d3ffb181d9f55623c52a0a.svg",
+  "media/images/illustrations/lost.svg": "/packs/media/images/illustrations/lost-4799c96fc30525cbddb6e101c519ee87.svg",
+  "media/images/illustrations/meditate.svg": "/packs/media/images/illustrations/meditate-2b5c30ab06674f1e10c1c4d3ed8a5ce8.svg",
+  "media/images/illustrations/reward.svg": "/packs/media/images/illustrations/reward-3e150442a3b39510d832ffc4212af9ae.svg",
+  "media/images/illustrations/save.svg": "/packs/media/images/illustrations/save-e1bbd4bab286c6392dfd06ebabdcafc7.svg",
+  "media/images/illustrations/scale.svg": "/packs/media/images/illustrations/scale-979e77df5ce27fb89d44294e81a4d40d.svg",
+  "media/images/illustrations/shop.svg": "/packs/media/images/illustrations/shop-c28051ae3cb255e41c8529b1eab9a0e0.svg",
+  "media/images/illustrations/sticky.svg": "/packs/media/images/illustrations/sticky-506a9e9bb4b9194c8afb5e3142935ab6.svg",
+  "media/images/kanban/kanban-1.jpg": "/packs/media/images/kanban/kanban-1-370159a22aa761842325d96e129ac70f.jpg",
+  "media/images/kanban/kanban-2.jpg": "/packs/media/images/kanban/kanban-2-0dfcd11a7797b0aba041b23872b1269b.jpg",
+  "media/images/logo.svg": "/packs/media/images/logo-3d32146c7a93293e451edd9c63a91b2c.svg",
+  "media/images/logo_blue.png": "/packs/media/images/logo_blue-3d3f149475718b1d8d911d6e5268b464.png",
+  "media/images/logo_db.png": "/packs/media/images/logo_db-d885895801aeda58bf1798f87852826b.png",
+  "media/images/logo_white.png": "/packs/media/images/logo_white-ad5c120892a16c8d925ef3fa392dc38b.png",
+  "media/images/masks/avatar-group-hover-last.svg": "/packs/media/images/masks/avatar-group-hover-last-6ac726130dcb2db3245cbd2b42a47685.svg",
+  "media/images/masks/avatar-group-hover.svg": "/packs/media/images/masks/avatar-group-hover-672e50f73963cf97baae196cf2c7a7bd.svg",
+  "media/images/masks/avatar-group.svg": "/packs/media/images/masks/avatar-group-936a2d3aedfe174ffaf564808de152fe.svg",
+  "media/images/masks/avatar-status.svg": "/packs/media/images/masks/avatar-status-7ca4c2012feeb8ac3a01a078c0177b36.svg",
+  "media/images/masks/icon-status.svg": "/packs/media/images/masks/icon-status-c971ca1909311eb4bd25cf62905f6d03.svg",
+  "media/images/posts/post-1.jpg": "/packs/media/images/posts/post-1-a17f96793af68c457bee35681101a257.jpg"
+}

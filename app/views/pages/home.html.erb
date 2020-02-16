@@ -1,0 +1,390 @@
+
+<%= render 'partials/modals' %>
+<%= render 'partials/sidebar', locals: {category: :dashboards} %>
+<%= render 'partials/sidebar-sm', locals: {category: :dashboards} %>
+<%= render 'partials/topnav', locals: {category: :dashboards} %>
+<div class="main-content">
+
+      <%= render 'partials/topbar' %>
+
+      <!-- HEADER -->
+      <div class="header bg-dark pb-5">
+        <div class="container-fluid">
+
+          <!-- Body -->
+          <div class="header-body">
+            <div class="row align-items-end">
+              <div class="col">
+                
+                <!-- Pretitle -->
+                <h6 class="header-pretitle text-secondary">
+                  Overview
+                </h6>
+
+                <!-- Title -->
+                <h1 class="header-title text-white">
+                  Your company's engagement
+                </h1>
+
+              </div>
+              <div class="col-auto">
+                
+                <!-- Nav -->
+                <ul class="nav nav-tabs header-tabs">
+                  <li class="nav-item" data-toggle="chart" data-target="#headerChart" data-update="{&quot;data&quot;:{&quot;datasets&quot;:[{&quot;data&quot;:[0,10,5,15,10,20,15,25,20,30,25,40]}]}}" data-prefix="$" data-suffix="k">
+                    <a href="#" class="nav-link text-center active" data-toggle="tab">
+                      <h6 class="header-pretitle text-secondary">
+                        Engagement score
+                      </h6>
+                      <h3 class="text-white mb-0">
+                        3.2/5
+                      </h3>
+                    </a>
+                  </li>
+                </ul>
+
+              </div>
+            </div> <!-- / .row -->
+          </div> <!-- / .header-body -->
+
+          <!-- Footer -->
+          <div class="header-footer">
+
+            <!-- Chart -->
+            <div class="chart"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
+              <canvas id="headerChart" class="chart-canvas chartjs-render-monitor" style="display: block; height: 300px; width: 1401px;" width="2802" height="600"></canvas>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="container-fluid mt-n6">
+        <div class="row">
+          <div class="col-12 col-xl-8">
+            
+            <!-- Orders -->
+            <div class="card">
+              <div class="card-header">
+                <div class="row align-items-center">
+                  <div class="col">
+                
+                    <!-- Title -->
+                    <h4 class="card-header-title">
+                      Reward & recogntition stats
+                    </h4>
+
+                  </div>
+                  <div class="col-auto mr-n3">
+                    
+                    <!-- Caption -->
+                    <span class="text-muted">
+                      Show peer recognition
+                    </span>
+
+                  </div>
+                  <div class="col-auto">
+
+                    <!-- Switch -->
+                    <div class="custom-control custom-switch">
+                      <input type="checkbox" class="custom-control-input" id="cardToggle" data-toggle="chart" data-target="#ordersChart" data-add="{&quot;data&quot;:{&quot;datasets&quot;:[{&quot;data&quot;:[15,10,20,12,7,0,8,16,18,16,10,22],&quot;backgroundColor&quot;:&quot;#d2ddec&quot;,&quot;label&quot;:&quot;Affiliate&quot;}]}}">
+                      <label class="custom-control-label" for="cardToggle"></label>
+                    </div>
+
+                  </div>
+                </div> <!-- / .row -->
+
+              </div>
+              <div class="card-body">
+                
+                <!-- Chart -->
+                <div class="chart"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
+                  <canvas id="ordersChart" class="chart-canvas chartjs-render-monitor" style="display: block; height: 300px; width: 876px;" width="1752" height="600"></canvas>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+          <div class="col-12 col-xl-4">
+
+            <!-- Devices -->
+            <div class="card">
+              <div class="card-header">
+                <div class="row align-items-center">
+                  <div class="col">
+                
+                    <!-- Title -->
+                    <h4 class="card-header-title">
+                      Company engagement drivers
+                    </h4>
+
+                  </div>
+                  <div class="col-auto">
+
+                    
+
+                  </div>
+                </div> <!-- / .row -->
+
+              </div>
+              <div class="card-body">
+                
+                <!-- Chart -->
+                <div class="chart chart-appended"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
+                  <canvas id="devicesChart" class="chart-canvas chartjs-render-monitor" data-toggle="legend" data-target="#devicesChartLegend" style="display: block; height: 241px; width: 401px;" width="802" height="482"></canvas>
+                </div>
+
+                <!-- Legend -->
+                <div id="devicesChartLegend" class="chart-legend"><span class="chart-legend-item"><i class="chart-legend-indicator" style="background-color: #2C7BE5"></i>Learning & growth</span><span class="chart-legend-item"><i class="chart-legend-indicator" style="background-color: #A6C5F7"></i>Leadership</span><span class="chart-legend-item"><i class="chart-legend-indicator" style="background-color: #D2DDEC"></i>Teamwork</span></div>
+
+              </div>
+            </div>
+            
+          </div>
+        </div> <!-- / .row -->
+      </div>
+      
+      <!-- CARDS -->
+      <div class="container">
+
+        <div class="row">
+          <div class="col-12">
+            <hr class="mt-4 mb-5">
+           <h3 class="mb-4">Welcome back, Jenny</h3>
+          </div>
+        </div>
+        <div class="row">
+          
+          <div class="col-12 col-lg-6 col-xl">
+            
+            <!-- Card -->
+            <div class="card">
+              <div class="card-body">
+                <div class="row align-items-center">
+                  <div class="col">
+
+                    <!-- Title -->
+                    <h6 class="card-title text-uppercase text-muted mb-2">
+                      Rewards balance
+                    </h6>
+                    
+                    <!-- Heading -->
+                    <span class="h2 mb-0">
+                      £0.00
+                    </span>
+
+                  </div>
+                  <div class="col-auto">
+                    
+                    <!-- Icon -->
+                    <span class="h2 fe fe-award text-muted mb-0"></span>
+
+                  </div>
+                </div> <!-- / .row -->
+
+              </div>
+            </div>
+              
+          </div>
+        </div> <!-- / .row -->
+        <div class="row">
+          <div class="col-12 col-xl-8">
+            <div class="card">
+              <div class="card-header">
+                <div class="row align-items-center">
+                  <div class="col">
+                    
+                    <!-- Title -->
+                    <h4 class="card-header-title">
+                      Latest from the Culture Hub
+                    </h4>
+
+                  </div>
+                  <div class="col-auto">
+
+                    <!-- Link -->
+                    <a href="#modalDemo" class="small" data-toggle="modal">View all</a>
+                    
+                  </div>
+                </div> <!-- / .row -->
+              </div>
+              <div class="card-body">
+
+                <div class="row align-items-center">
+                  <div class="col-auto">
+                    
+                    <!-- Avatar -->
+                    <a href="#" class="avatar">
+                      <img src="<%= asset_pack_path 'media/images/avatars/profiles/avatar-2.jpg' %>" alt="..." class="avatar-img rounded-circle">
+                    </a>
+
+                  </div>
+                  <div class="col ml-n2">
+
+                    <!-- Title -->
+                    <h4 class="card-title mb-1">
+                      <a href="profile-posts.html">Jack Elliot</a>
+                    </h4>
+
+                    <!-- Time -->
+                    <p class="card-text small">
+                      Here's an awesome recognition post to read
+                    </p>
+                    
+                  </div>
+                  <div class="col-auto">
+                    
+                    <a href="#!" class="btn btn-sm btn-white">
+                        Read more
+                      </a>
+                    
+                  </div>
+                </div> <!-- / .row -->
+
+                <!-- Divider -->
+                <hr>
+
+                <div class="row align-items-center">
+                  <div class="col-auto">
+                    
+                    <!-- Avatar -->
+                    <a href="#" class="avatar">
+                      <img src="<%= asset_pack_path 'media/images/avatars/profiles/avatar-3.jpg' %>" alt="..." class="avatar-img rounded-circle">
+                    </a>
+
+                  </div>
+                  <div class="col ml-n2">
+
+                    <!-- Title -->
+                    <h4 class="card-title mb-1">
+                      <a href="#">Ab Hadley</a>
+                    </h4>
+
+                    <!-- Time -->
+                    <p class="card-text small">
+                      Here's an update from our team manager about our quarter
+                    </p>
+                    
+                  </div>
+                  <div class="col-auto">
+                    
+                    <a href="#!" class="btn btn-sm btn-white">
+                        Read more
+                      </a>
+                    
+                  </div>
+                </div> <!-- / .row -->
+
+                <!-- Divider -->
+                <hr>
+
+                <div class="row align-items-center">
+                  <div class="col-auto">
+                    
+                    <!-- Avatar -->
+                    <a href="#" class="avatar">
+                      <img src="<%= asset_pack_path 'media/images/avatars/profiles/avatar-6.jpg' %>" alt="..." class="avatar-img rounded-circle">
+                    </a>
+
+                  </div>
+                  <div class="col ml-n2">
+
+                    <!-- Title -->
+                    <h4 class="card-title mb-1">
+                      <a href="profile-posts.html">Adolfo Hess</a>
+                    </h4>
+
+                    <!-- Time -->
+                    <p class="card-text small">
+                      A post from a recent company event for everyone to see
+                    </p>
+                    
+                  </div>
+                  <div class="col-auto">
+                    
+                    <a href="#!" class="btn btn-sm btn-white">
+                        Read more
+                      </a>
+                    
+                  </div>
+                </div> <!-- / .row -->
+
+                <!-- Divider -->
+                <hr>
+
+                <div class="row align-items-center">
+                  <div class="col-auto">
+                    
+                    <!-- Avatar -->
+                    <a href="#" class="avatar">
+                      <img src="<%= asset_pack_path 'media/images/avatars/profiles/avatar-4.jpg' %>" alt="..." class="avatar-img rounded-circle">
+                    </a>
+
+                  </div>
+                  <div class="col ml-n2">
+
+                    <!-- Title -->
+                    <h4 class="card-title mb-1">
+                      <a href="profile-posts.html">Daniela Dewitt</a>
+                    </h4>
+
+                    <!-- Time -->
+                    <p class="card-text small">
+                      Participate in a little poll to see where to go for team night out
+                    </p>
+                    
+                  </div>
+                  <div class="col-auto">
+                    
+                    <a href="#!" class="btn btn-sm btn-white">
+                        Read more
+                      </a>
+                    
+                  </div>
+                </div> <!-- / .row -->
+
+              </div> <!-- / .card-body -->
+            </div>
+
+          </div>
+          <div class="col-12 col-xl-4">
+
+            <div class="card">
+              <div class="card-body">
+                <div class="row align-items-center">
+                  <div class="col-12 col-lg-12 px-4 py-3 order-lg-1">
+                    
+                    <!-- Title -->
+                    <h3>
+                      Pulse surveys <span class="badge badge-soft-primary ml-auto">1 new</span>
+                    </h3>
+
+                    <!-- Content -->
+                    <p class="text-muted">
+                      Have your say, let us know your feedback
+                    </p>
+
+                    <!-- Button -->
+                    <a href="#!" class="btn btn-primary lift">
+                      Let's go
+                    </a>
+
+                  </div>
+                </div> <!-- / .row -->
+              </div>
+            </div>
+
+
+            </div> <!-- / .row -->
+
+              </div>
+              
+            </div>
+            
+          </div>
+        </div> <!-- / .row -->
+        
+      

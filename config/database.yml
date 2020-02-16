@@ -1,0 +1,25 @@
+# Uncoment this if you using docker
+# development:
+#   adapter: postgresql
+#   database: visiontype
+#   username: postgres
+#   password: postgres
+#   host: postgres
+#   port: 5432
+#   pool: 5
+#   timeout: 5000
+
+development:
+  adapter: sqlite3
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  timeout: 5000
+  database: db/development.sqlite3
+
+test:
+  adapter: postgresql
+  database: my_database_test
+  pool: 5
+  timeout: 5000
+
+production:
+  url: <%= ENV['DATABASE_URL'] %>

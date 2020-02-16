@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Perkbox - Company Admin</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%=render 'partials/head' %>
+  </head>
+
+  <body class="<%= yield :body_class %>">
+    <%= yield %>
+    <%= render 'partials/scripts' %>
+  </body>
+</html>

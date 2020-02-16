@@ -1,0 +1,224 @@
+<nav class="navbar navbar-vertical fixed-left navbar-expand-md" id="sidebar">
+  <div class="container-fluid">
+
+    <!-- Toggler -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sidebarCollapse" aria-controls="sidebarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Brand -->
+    <a class="navbar-brand" href="home.html">
+      <img src="<%= asset_pack_path 'media/images/logo.svg'%>" class="navbar-brand-img mx-auto" alt="...">
+    </a>
+
+    <!-- User (xs) -->
+    <div class="navbar-user d-md-none">
+
+      <!-- Dropdown -->
+      <div class="dropdown">
+        
+        <!-- Toggle -->
+        <a href="#" id="sidebarIcon" class="dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <div class="avatar avatar-sm avatar-online">
+            <img src="<%= asset_pack_path 'media/images/avatars/profiles/avatar-1.jpg' %>" alt="..."  class="avatar-img rounded-circle" >
+          </div>
+        </a>
+
+        <!-- Menu -->
+        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="sidebarIcon">
+          <a href="#" class="dropdown-item d-md-none">Notifications</a>
+          <a href="yourwallet.html" class="dropdown-item d-md-none">Wallet <span class="badge badge-soft-primary float-right">£20.00</span>
+          </a>
+          <a href="yoursettings.html" class="dropdown-item">Settings</a>
+          <a href="yourpurchases.html" class="dropdown-item">Purchases & Redemptions</a>
+          <hr class="dropdown-divider">
+          <a href="#" class="dropdown-item">Logout</a>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Collapse -->
+    <div class="collapse navbar-collapse" id="sidebarCollapse">
+
+      <!-- Form -->
+      <form class="mt-4 mb-3 d-md-none">
+        <div class="input-group input-group-rounded input-group-merge">
+          <input type="search" class="form-control form-control-rounded form-control-prepended" placeholder="Search" aria-label="Search">
+          <div class="input-group-prepend">
+            <div class="input-group-text">
+              <span class="fe fe-search"></span>
+            </div>
+          </div>
+        </div>
+      </form>
+
+      
+      <!-- Navigation -->
+      <ul class="navbar-nav">
+
+        <% if current_page?('/home.html') %>
+
+
+        <li class="nav-item">
+          <a class="nav-link active" href="home.html" role="button" aria-expanded="false">
+            <i class="fe fe-home"></i> Home
+          </a>
+        </li>
+
+        <% else %>
+
+        <li class="nav-item">
+          <a class="nav-link" href="home.html" role="button" aria-expanded="false">
+            <i class="fe fe-home"></i> Home
+          </a>
+        </li>
+
+        <% end %>
+
+
+        <% if current_page?('/for_you.html') || current_page?('/for_you_awards.html') || current_page?('/for_you_recognition.html') || current_page?('/for_you_rewards.html') %>
+
+        <li class="nav-item">
+          <a class="nav-link active" href="for_you.html" role="button" aria-expanded="<%= locals[:category] == 'pages' %>" aria-controls="sidebarPages">
+            <i class="fe fe-gift"></i> For you
+          </a>
+        </li>
+
+        <% else %>
+
+        <li class="nav-item">
+          <a class="nav-link" href="for_you.html" role="button" aria-expanded="<%= locals[:category] == 'pages' %>" aria-controls="sidebarPages">
+            <i class="fe fe-gift"></i> For you
+          </a>
+        </li>
+
+
+        <% end %>
+
+
+        <% if current_page?('/culture_hub.html') %>
+
+        <li class="nav-item">
+          <a class="nav-link active" href="culture_hub.html" role="button" aria-expanded="false">
+            <i class="fe fe-users"></i> Culture Hub
+          </a>
+        </li>
+
+        <% else %>
+
+        <li class="nav-item">
+          <a class="nav-link" href="culture_hub.html" role="button" aria-expanded="false">
+            <i class="fe fe-users"></i> Culture Hub
+          </a>
+        </li>
+
+        <% end %>
+      </ul>
+
+      <% if current_page?('/marketplace.html') %>
+
+      <ul class="navbar-nav mb-md-4 d-md-none">
+        <li class="nav-item active">
+          <a class="nav-link" href="marketplace.html" role="button" aria-controls="sidebarDashboards">
+            <i class="fe fe-box"></i>Marketplace 
+          </a>
+        </li>
+      </ul>
+
+       <% else %>
+
+       <ul class="navbar-nav mb-md-4 d-md-none">
+        <li class="nav-item">
+          <a class="nav-link" href="marketplace.html" role="button" aria-controls="sidebarDashboards">
+            <i class="fe fe-box"></i>Marketplace 
+          </a>
+        </li>
+      </ul>
+
+      <% end %>
+
+      <!-- Divider -->
+      <hr class="navbar-divider my-3">
+
+      <!-- Navigation -->
+      <ul class="navbar-nav mb-md-4 d-none d-md-block">
+
+        <% if current_page?('/marketplace.html') %>
+        
+        <li class="nav-item active">
+          <a class="nav-link" href="marketplace.html" role="button" aria-controls="sidebarDashboards">
+            <i class="fe fe-box"></i>Marketplace 
+          </a>
+        </li>
+
+        <% else %>
+
+        <li class="nav-item">
+          <a class="nav-link" href="marketplace.html" role="button" aria-controls="sidebarDashboards">
+            <i class="fe fe-box"></i>Marketplace 
+          </a>
+        </li>
+
+        <% end %>
+
+
+      </ul>
+      
+      <!-- Push content down -->
+      <div class="mt-auto"></div>
+
+      <a href="/manage_team.html" class="btn btn-block btn-primary mb-4 d-none d-md-block">
+        Manage your company
+      </a>
+
+      <a href="/manage_team.html" class="btn btn-block btn-primary d-md-none" >
+        Manage your company
+      </a>
+      
+      <!-- User (md) -->
+      <div class="navbar-user d-none d-md-flex" id="sidebarUser">
+        
+        <!-- Icon -->
+        <a href="#sidebarModalActivity" class="navbar-user-link" data-toggle="modal">
+          <span class="icon">
+            <i class="fe fe-bell"></i>
+          </span>
+        </a>
+
+        <!-- Dropup -->
+        <div class="dropup">
+          
+          <!-- Toggle -->
+          <a href="#" id="sidebarIconCopy" class="dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <div class="avatar avatar-sm avatar-online">
+              <img src="<%= asset_pack_path 'media/images/avatars/profiles/avatar-1.jpg' %>" alt="..."  class="avatar-img rounded-circle" >
+            </div>
+          </a>
+
+          <!-- Menu -->
+          <div class="dropdown-menu" aria-labelledby="sidebarIconCopy">
+            <a href="#" class="dropdown-item">Notifications</a>
+            <a href="yourwallet.html" class="dropdown-item">Wallet <span class="badge badge-soft-primary ml-auto">£20.00</span></a>
+            <a href="yoursettings.html" class="dropdown-item">Settings</a>
+            <a href="yourpurchases.html" class="dropdown-item">Purchases & redemptions</a>
+            <hr class="dropdown-divider">
+            <a href="#" class="dropdown-item">Logout</a>
+          </div>
+
+        </div>
+
+        <!-- Icon -->
+        <a href="#sidebarModalSearch" class="navbar-user-link" data-toggle="modal">
+          <span class="icon">
+            <i class="fe fe-search"></i>
+          </span>
+        </a>
+
+      </div>
+
+    </div> <!-- / .navbar-collapse -->
+
+  </div>
+</nav>

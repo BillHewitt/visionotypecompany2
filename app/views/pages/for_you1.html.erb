@@ -1,0 +1,849 @@
+
+<%= render 'partials/modals' %>
+<%= render 'partials/sidebar', locals: {category: :pages, subcategory: :project} %>
+<%= render 'partials/sidebar-sm', locals: {category: :pages, subcategory: :project} %>
+<%= render 'partials/topnav', locals: {category: :pages, subcategory: :project} %>
+<div class="main-content">
+
+      <%= render 'partials/topbar' %>
+
+      <!-- HEADER -->
+      <div class="header">
+        <div class="container-fluid">
+          
+          <!-- Body -->
+          <div class="header-body">
+            <div class="row align-items-center">
+              <div class="col-auto">
+
+                <!-- Avatar -->
+                <div class="avatar avatar-lg">
+                  <img src="<%= asset_pack_path 'media/images/avatars/profiles/avatar-1.jpg' %>" alt="..." class="avatar-img rounded-circle" >
+                </div>
+
+              </div>
+              <div class="col ml-n3 ml-md-n2">
+                
+                <!-- Pretitle -->
+                <h6 class="header-pretitle">
+                  For you
+                </h6>
+
+                <!-- Title -->
+                <h2 class="header-title">
+                  Your experience, curated
+                </h2>
+
+              </div>
+              
+            </div> <!-- / .row -->
+            <div class="row align-items-center">
+              <div class="col">
+                
+                <!-- Nav -->
+                <ul class="nav nav-tabs nav-overflow header-tabs">
+                  <li class="nav-item">
+                    <a href="for_you.html" class="nav-link active">
+                      Perks
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="for_you_rewards.html" class="nav-link">
+                      Rewards
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="project-reports.html" class="nav-link">
+                      Recognition
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="project-reports.html" class="nav-link">
+                      Awards
+                    </a>
+                  </li>
+                </ul>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div> <!-- / .header -->
+
+      <div class="container-fluid">
+        <div class="row">
+
+          <div class="col-md-12 col-lg-12 col-xl-12 col-sm-12 col-xs-12">
+            <div class="card">
+              <div class="card-body text-center">
+                <div class="row justify-content-center">
+                  <div class="col-8 col-xl-8">
+                
+                    <!-- Image -->
+                    <img src="<%= asset_pack_path 'media/images/illustrations/happiness.svg'%>" alt="..." class="img-fluid mt-n5 mb-4" style="max-width: 272px;">
+
+                    <!-- Title -->
+                    <h2 class="mb-2">
+                      Your Discount Collection
+                    </h2>
+
+                    <!-- Content -->
+                    <p class="text-muted">
+                      Access hundreds of instant discount codes across selected retailers. Earn cash back when you link your card.
+                    </p>
+
+                    <!-- Button -->
+                    <a href="#!" class="btn btn-primary lift">
+                      Explore
+                    </a>
+                  
+                  </div>
+                </div> <!-- / .row -->
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+            <div class="card">
+              <div class="card-header">
+                <div class="row align-items-center">
+                  <div class="col">
+                    
+                    <!-- Title -->
+                    <h4 class="card-header-title">
+                      Your personalised perks
+                    </h4>
+
+                  </div>
+                  <div class="col-auto">
+
+                    <div class="dropdown">
+
+                      <!-- Toggle -->
+                      <a href="#" class="small text-muted dropdown-toggle" data-toggle="dropdown">
+                        Recently added
+                      </a>
+
+                      <!-- Menu -->
+                      <div class="dropdown-menu dropdown-menu-right">
+                        <a class="dropdown-item sort" data-sort="name" href="#!">
+                          Recently added
+                        </a>
+                        <a class="dropdown-item sort" data-sort="name" href="#!">
+                          A - Z
+                        </a>
+                        <a class="dropdown-item sort" data-sort="name" href="#!">
+                          Z - A
+                        </a>
+                      </div>
+
+                    </div>
+                    
+                  </div>
+                </div> <!-- / .row -->
+              </div>
+
+              <div class="card-header">
+                <div class="row">
+                  <div class="col-12">
+                    
+                    <!-- Form -->
+                    <form>
+                      <div class="input-group input-group-flush input-group-merge">
+                        <input type="search" class="form-control form-control-prepended search" placeholder="Search">
+                        <div class="input-group-prepend">
+                          <div class="input-group-text">
+                            <span class="fe fe-search"></span>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+
+                  </div>
+                </div> <!-- / .row -->
+              </div>
+
+              <div class="card-body">
+
+                <div class="row align-items-center">
+                  <div class="col-auto">
+                    
+                    <!-- Avatar -->
+                    <a href="project-overview.html" class="avatar avatar-4by3">
+                      <img src="<%= asset_pack_path 'media/images/brands/credit.png'%>" alt="..." class="avatar-img rounded">
+                    </a>
+
+                  </div>
+                  <div class="col ml-n2">
+
+                    <!-- Title -->
+                    <h4 class="card-title mb-1">
+                      <a href="project-overview.html">Perkbox Store Budget</a>
+                    </h4>
+
+                    <!-- Time -->
+                    <p class="card-text small text-muted">
+                      £20.00 recurring monthly top-ups
+                    </p>
+                    
+                  </div>
+                  <div class="col-auto">
+
+                    <button type="button" class="btn btn-white btn-sm">
+                      View store
+                    </button>
+                    
+                  </div>
+                </div> <!-- / .row -->
+
+                <!-- Divider -->
+                <hr>
+
+                <div class="row align-items-center">
+                  <div class="col-auto">
+                    
+                    <!-- Avatar -->
+                    <a href="project-overview.html" class="avatar avatar-4by3">
+                      <img src="<%= asset_pack_path 'media/images/brands/ha.png'%>" alt="..." class="avatar-img rounded">
+                    </a>
+
+                  </div>
+                  <div class="col ml-n2">
+
+                    <!-- Title -->
+                    <h4 class="card-title mb-1">
+                      <a href="project-overview.html">Health Assured</a>
+                    </h4>
+
+                    <!-- Time -->
+                    <p class="card-text small text-muted">
+                      24/7 access to compassionate support (EAP)
+                    </p>
+                    
+                  </div>
+                  <div class="col-auto">
+                    
+                    <button type="button" class="btn btn-white btn-sm">
+                      Access portal
+                    </button>
+                    
+                  </div>
+                </div> <!-- / .row -->
+
+                <!-- Divider -->
+                <hr>
+
+                <div class="row align-items-center">
+                  <div class="col-auto">
+                    
+                    <!-- Avatar -->
+                    <a href="project-overview.html" class="avatar avatar-4by3">
+                      <img src="<%= asset_pack_path 'media/images/brands/DCA.png'%>" alt="..." class="avatar-img rounded">
+                    </a>
+
+                  </div>
+                  <div class="col ml-n2">
+
+                    <!-- Title -->
+                    <h4 class="card-title mb-1">
+                      <a href="project-overview.html">Dr Care Anywhere</a>
+                    </h4>
+
+                    <!-- Time -->
+                    <p class="card-text small text-muted">
+                      <time datetime="2018-05-24">24/7 access to an online GP</time>
+                    </p>
+                    
+                  </div>
+                  <div class="col-auto">
+                    
+                    <button type="button" class="btn btn-white btn-sm">
+                      Access app
+                    </button>
+                    
+                  </div>
+                </div> <!-- / .row -->
+
+                <!-- Divider -->
+                <hr>
+
+                <div class="row align-items-center">
+                  <div class="col-auto">
+                    
+                    <!-- Avatar -->
+                    <a href="project-overview.html" class="avatar avatar-4by3">
+                      <img src="<%= asset_pack_path 'media/images/brands/calm.png'%>" alt="..." class="avatar-img rounded">
+                    </a>
+
+                  </div>
+                  <div class="col ml-n2">
+
+                    <!-- Title -->
+                    <h4 class="card-title mb-1">
+                      <a href="project-overview.html">Calm</a>
+                    </h4>
+
+                    <!-- Time -->
+                    <p class="card-text small text-muted">
+                      <time datetime="2018-05-24">Improve your meditation and sleep</time>
+                    </p>
+                    
+                  </div>
+                  <div class="col-auto">
+                    
+                    <button type="button" class="btn btn-primary btn-sm">
+                      Sign up free
+                    </button>
+                    
+                  </div>
+                </div> <!-- / .row -->
+
+                <!-- Divider -->
+                <hr>
+
+                <div class="row align-items-center">
+                  <div class="col-auto">
+                    
+                    <!-- Avatar -->
+                    <a href="project-overview.html" class="avatar avatar-4by3">
+                      <img src="<%= asset_pack_path 'media/images/brands/magpie.png'%>" alt="..." class="avatar-img rounded">
+                    </a>
+
+                  </div>
+                  <div class="col ml-n2">
+
+                    <!-- Title -->
+                    <h4 class="card-title mb-1">
+                      <a href="project-overview.html">Magpie</a>
+                    </h4>
+
+                    <!-- Time -->
+                    <p class="card-text small text-muted">
+                      <time datetime="2018-05-24">AI-driven learning and development</time>
+                    </p>
+                    
+                  </div>
+                  <div class="col-auto">
+                    
+                   <button type="button" class="btn btn-white btn-sm">
+                      Access platform
+                    </button>
+                    
+                  </div>
+                </div> <!-- / .row -->
+
+                <!-- Divider -->
+                <hr>
+
+                <div class="row align-items-center">
+                  <div class="col-auto">
+                    
+                    <!-- Avatar -->
+                    <a href="project-overview.html" class="avatar avatar-4by3">
+                      <img src="<%= asset_pack_path 'media/images/brands/hastee.png'%>" alt="..." class="avatar-img rounded">
+                    </a>
+
+                  </div>
+                  <div class="col ml-n2">
+
+                    <!-- Title -->
+                    <h4 class="card-title mb-1">
+                      <a href="project-overview.html">Hastee Pay</a>
+                    </h4>
+
+                    <!-- Time -->
+                    <p class="card-text small text-muted">
+                      <time datetime="2018-05-24">Get paid early - on demand</time>
+                    </p>
+                    
+                  </div>
+                  <div class="col-auto">
+                    
+                   <button type="button" class="btn btn-white btn-sm">
+                      Access app
+                    </button>
+                    
+                  </div>
+                </div> <!-- / .row -->
+
+                <!-- Divider -->
+                <hr>
+
+                <div class="row align-items-center">
+                  <div class="col-auto">
+                    
+                    <!-- Avatar -->
+                    <a href="project-overview.html" class="avatar avatar-4by3">
+                      <img src="<%= asset_pack_path 'media/images/brands/nero.png'%>" alt="..." class="avatar-img rounded">
+                    </a>
+
+                  </div>
+                  <div class="col ml-n2">
+
+                    <!-- Title -->
+                    <h4 class="card-title mb-1">
+                      <a href="project-overview.html">Cafe Nero</a>
+                    </h4>
+
+                    <!-- Time -->
+                    <p class="card-text small text-muted">
+                      <time datetime="2018-05-24">1 free coffee every week</time>
+                    </p>
+                    
+                  </div>
+                  <div class="col-auto">
+                    
+                    <button type="button" class="btn btn-white btn-sm" disabled>
+                      <span class="fe fe-eye-off"></span> Available in 4 days
+                    </button>
+
+                  </div>
+
+                  <div class="col-auto">
+
+                    <div class="dropdown">
+                      <a href="#" class="dropdown-ellipses dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fe fe-more-vertical"></i>
+                      </a>
+                      <div class="dropdown-menu dropdown-menu-right">
+                        <a href="#!" class="dropdown-item">
+                          Set reminder
+                        </a>
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div> <!-- / .row -->
+
+                <!-- Divider -->
+                <hr>
+
+                <div class="row align-items-center">
+                  <div class="col-auto">
+                    
+                    <!-- Avatar -->
+                    <a href="project-overview.html" class="avatar avatar-4by3">
+                      <img src="<%= asset_pack_path 'media/images/brands/odeon.png'%>" alt="..." class="avatar-img rounded">
+                    </a>
+
+                  </div>
+                  <div class="col ml-n2">
+
+                    <!-- Title -->
+                    <h4 class="card-title mb-1">
+                      <a href="project-overview.html">Odeon</a>
+                    </h4>
+
+                    <!-- Time -->
+                    <p class="card-text small text-muted">
+                      <time datetime="2018-05-24">1 free cinema ticket every month</time>
+                    </p>
+                    
+                  </div>
+                  <div class="col-auto">
+                    
+                    <button type="button" class="btn btn-white btn-sm" disabled>
+                      <span class="fe fe-eye-off"></span> Available in 14 days
+                    </button>
+
+                  </div>
+                  <div class="col-auto">
+
+                    <div class="dropdown">
+                      <a href="#" class="dropdown-ellipses dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fe fe-more-vertical"></i>
+                      </a>
+                      <div class="dropdown-menu dropdown-menu-right">
+                        <a href="#!" class="dropdown-item">
+                          Set reminder
+                        </a>
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div> <!-- / .row -->
+
+              </div> <!-- / .card-body -->
+            </div>
+          </div>
+            
+          </div>     
+      </div>
+      
+
+    <div class="container-fluid">
+        <div class="row">
+          <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+            <div class="card">
+              <div class="card-header">
+                <div class="row align-items-center">
+                  <div class="col">
+                    
+                    <!-- Title -->
+                    <h4 class="card-header-title">
+                      Company benefits
+                    </h4>
+
+                  </div>
+                  <div class="col-auto">
+
+                    <div class="dropdown">
+
+                      <!-- Toggle -->
+                      <a href="#" class="small text-muted dropdown-toggle" data-toggle="dropdown">
+                        Recently added
+                      </a>
+
+                      <!-- Menu -->
+                      <div class="dropdown-menu dropdown-menu-right">
+                        <a class="dropdown-item sort" data-sort="name" href="#!">
+                          Recently added
+                        </a>
+                        <a class="dropdown-item sort" data-sort="name" href="#!">
+                          A - Z
+                        </a>
+                        <a class="dropdown-item sort" data-sort="name" href="#!">
+                          Z - A
+                        </a>
+                      </div>
+
+                    </div>
+                    
+                  </div>
+                </div> <!-- / .row -->
+              </div>
+
+              <div class="card-header">
+                <div class="row">
+                  <div class="col-12">
+                    
+                    <!-- Form -->
+                    <form>
+                      <div class="input-group input-group-flush input-group-merge">
+                        <input type="search" class="form-control form-control-prepended search" placeholder="Search">
+                        <div class="input-group-prepend">
+                          <div class="input-group-text">
+                            <span class="fe fe-search"></span>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+
+                  </div>
+                </div> <!-- / .row -->
+              </div>
+
+              <div class="card-body">
+
+                <div class="row align-items-center">
+                  <div class="col-auto">
+                    
+                    <!-- Avatar -->
+                    <a href="project-overview.html" class="avatar avatar-4by3">
+                      <img src="<%= asset_pack_path 'media/images/brands/credit.png'%>" alt="..." class="avatar-img rounded">
+                    </a>
+
+                  </div>
+                  <div class="col ml-n2">
+
+                    <!-- Title -->
+                    <h4 class="card-title mb-1">
+                      <a href="project-overview.html">Perkbox Marketplace Budget</a>
+                    </h4>
+
+                    <!-- Time -->
+                    <p class="card-text small text-muted">
+                      £20.00 recurring monthly top-ups
+                    </p>
+                    
+                  </div>
+                  <div class="col-auto">
+
+                    <button type="button" class="btn btn-white btn-sm">
+                      View marketplace
+                    </button>
+                    
+                  </div>
+                </div> <!-- / .row -->
+
+                <!-- Divider -->
+                <hr>
+
+                <div class="row align-items-center">
+                  <div class="col-auto">
+                    
+                    <!-- Avatar -->
+                    <a href="project-overview.html" class="avatar avatar-4by3">
+                      <img src="<%= asset_pack_path 'media/images/brands/ha.png'%>" alt="..." class="avatar-img rounded">
+                    </a>
+
+                  </div>
+                  <div class="col ml-n2">
+
+                    <!-- Title -->
+                    <h4 class="card-title mb-1">
+                      <a href="project-overview.html">Health Assured</a>
+                    </h4>
+
+                    <!-- Time -->
+                    <p class="card-text small text-muted">
+                      24/7 access to compassionate support (EAP)
+                    </p>
+                    
+                  </div>
+                  <div class="col-auto">
+                    
+                    <button type="button" class="btn btn-white btn-sm">
+                      Access portal
+                    </button>
+                    
+                  </div>
+                </div> <!-- / .row -->
+
+                <!-- Divider -->
+                <hr>
+
+                <div class="row align-items-center">
+                  <div class="col-auto">
+                    
+                    <!-- Avatar -->
+                    <a href="project-overview.html" class="avatar avatar-4by3">
+                      <img src="<%= asset_pack_path 'media/images/brands/DCA.png'%>" alt="..." class="avatar-img rounded">
+                    </a>
+
+                  </div>
+                  <div class="col ml-n2">
+
+                    <!-- Title -->
+                    <h4 class="card-title mb-1">
+                      <a href="project-overview.html">Dr Care Anywhere</a>
+                    </h4>
+
+                    <!-- Time -->
+                    <p class="card-text small text-muted">
+                      <time datetime="2018-05-24">24/7 access to an online GP</time>
+                    </p>
+                    
+                  </div>
+                  <div class="col-auto">
+                    
+                    <button type="button" class="btn btn-white btn-sm">
+                      Access app
+                    </button>
+                    
+                  </div>
+                </div> <!-- / .row -->
+
+                <!-- Divider -->
+                <hr>
+
+                <div class="row align-items-center">
+                  <div class="col-auto">
+                    
+                    <!-- Avatar -->
+                    <a href="project-overview.html" class="avatar avatar-4by3">
+                      <img src="<%= asset_pack_path 'media/images/brands/calm.png'%>" alt="..." class="avatar-img rounded">
+                    </a>
+
+                  </div>
+                  <div class="col ml-n2">
+
+                    <!-- Title -->
+                    <h4 class="card-title mb-1">
+                      <a href="project-overview.html">Calm</a>
+                    </h4>
+
+                    <!-- Time -->
+                    <p class="card-text small text-muted">
+                      <time datetime="2018-05-24">Improve your meditation and sleep</time>
+                    </p>
+                    
+                  </div>
+                  <div class="col-auto">
+                    
+                    <button type="button" class="btn btn-primary btn-sm">
+                      Sign up free
+                    </button>
+                    
+                  </div>
+                </div> <!-- / .row -->
+
+                <!-- Divider -->
+                <hr>
+
+                <div class="row align-items-center">
+                  <div class="col-auto">
+                    
+                    <!-- Avatar -->
+                    <a href="project-overview.html" class="avatar avatar-4by3">
+                      <img src="<%= asset_pack_path 'media/images/brands/magpie.png'%>" alt="..." class="avatar-img rounded">
+                    </a>
+
+                  </div>
+                  <div class="col ml-n2">
+
+                    <!-- Title -->
+                    <h4 class="card-title mb-1">
+                      <a href="project-overview.html">Magpie</a>
+                    </h4>
+
+                    <!-- Time -->
+                    <p class="card-text small text-muted">
+                      <time datetime="2018-05-24">AI-driven learning and development</time>
+                    </p>
+                    
+                  </div>
+                  <div class="col-auto">
+                    
+                   <button type="button" class="btn btn-white btn-sm">
+                      Access platform
+                    </button>
+                    
+                  </div>
+                </div> <!-- / .row -->
+
+                <!-- Divider -->
+                <hr>
+
+                <div class="row align-items-center">
+                  <div class="col-auto">
+                    
+                    <!-- Avatar -->
+                    <a href="project-overview.html" class="avatar avatar-4by3">
+                      <img src="<%= asset_pack_path 'media/images/brands/hastee.png'%>" alt="..." class="avatar-img rounded">
+                    </a>
+
+                  </div>
+                  <div class="col ml-n2">
+
+                    <!-- Title -->
+                    <h4 class="card-title mb-1">
+                      <a href="project-overview.html">Hastee Pay</a>
+                    </h4>
+
+                    <!-- Time -->
+                    <p class="card-text small text-muted">
+                      <time datetime="2018-05-24">Get paid early - on demand</time>
+                    </p>
+                    
+                  </div>
+                  <div class="col-auto">
+                    
+                   <button type="button" class="btn btn-white btn-sm">
+                      Access app
+                    </button>
+                    
+                  </div>
+                </div> <!-- / .row -->
+
+                <!-- Divider -->
+                <hr>
+
+                <div class="row align-items-center">
+                  <div class="col-auto">
+                    
+                    <!-- Avatar -->
+                    <a href="project-overview.html" class="avatar avatar-4by3">
+                      <img src="<%= asset_pack_path 'media/images/brands/nero.png'%>" alt="..." class="avatar-img rounded">
+                    </a>
+
+                  </div>
+                  <div class="col ml-n2">
+
+                    <!-- Title -->
+                    <h4 class="card-title mb-1">
+                      <a href="project-overview.html">Cafe Nero</a>
+                    </h4>
+
+                    <!-- Time -->
+                    <p class="card-text small text-muted">
+                      <time datetime="2018-05-24">1 free coffee every week</time>
+                    </p>
+                    
+                  </div>
+                  <div class="col-auto">
+                    
+                    <button type="button" class="btn btn-white btn-sm" disabled>
+                      <span class="fe fe-eye-off"></span> Available in 4 days
+                    </button>
+
+                  </div>
+
+                  <div class="col-auto">
+
+                    <div class="dropdown">
+                      <a href="#" class="dropdown-ellipses dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fe fe-more-vertical"></i>
+                      </a>
+                      <div class="dropdown-menu dropdown-menu-right">
+                        <a href="#!" class="dropdown-item">
+                          Set reminder
+                        </a>
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div> <!-- / .row -->
+
+                <!-- Divider -->
+                <hr>
+
+                <div class="row align-items-center">
+                  <div class="col-auto">
+                    
+                    <!-- Avatar -->
+                    <a href="project-overview.html" class="avatar avatar-4by3">
+                      <img src="<%= asset_pack_path 'media/images/brands/odeon.png'%>" alt="..." class="avatar-img rounded">
+                    </a>
+
+                  </div>
+                  <div class="col ml-n2">
+
+                    <!-- Title -->
+                    <h4 class="card-title mb-1">
+                      <a href="project-overview.html">Odeon</a>
+                    </h4>
+
+                    <!-- Time -->
+                    <p class="card-text small text-muted">
+                      <time datetime="2018-05-24">1 free cinema ticket every month</time>
+                    </p>
+                    
+                  </div>
+                  <div class="col-auto">
+                    
+                    <button type="button" class="btn btn-white btn-sm" disabled>
+                      <span class="fe fe-eye-off"></span> Available in 14 days
+                    </button>
+
+                  </div>
+                  <div class="col-auto">
+
+                    <div class="dropdown">
+                      <a href="#" class="dropdown-ellipses dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fe fe-more-vertical"></i>
+                      </a>
+                      <div class="dropdown-menu dropdown-menu-right">
+                        <a href="#!" class="dropdown-item">
+                          Set reminder
+                        </a>
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div> <!-- / .row -->
+
+              </div> <!-- / .card-body -->
+            </div>
+          </div>
+            
+          </div>     
+      </div>
+      
+    </div>

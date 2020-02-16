@@ -1,0 +1,190 @@
+
+<%= render 'partials/modals' %>
+<%= render 'partials/sidebar', locals: {category: :pages} %>
+<%= render 'partials/sidebar-sm', locals: {category: :pages} %>
+<%= render 'partials/topnav', locals: {category: :pages} %>
+<div class="main-content">
+
+<%= render 'partials/topbar' %>
+
+<div class="container-fluid">
+  <div class="row justify-content-center">
+    <div class="col-12 col-lg-12 col-xl-12">
+      
+      <!-- Header -->
+      <div class="header">
+        <div class="header-body">
+          <div class="row align-items-center">
+            <div class="col">
+              
+              <!-- Pretitle -->
+              <h6 class="header-pretitle">
+                Wallet
+              </h6>
+
+              <!-- Title -->
+              <h1 class="header-title">
+                Your wallet
+              </h1>
+
+            </div>
+          </div> <!-- / .row -->
+
+          <div class="row mt-4">
+          <div class="col-12 col-xl-8">
+
+            <div class="card">
+              <div class="card-header">
+                <div class="row align-items-center">
+                  <div class="col">
+                    
+                    <!-- Title -->
+                    <h4 class="card-header-title">
+                      Portfolio
+                    </h4>
+
+                  </div>
+                  <div class="col-auto">
+
+                   <h4 class="card-header-title">
+                      Balances
+                    </h4>
+                    
+                  </div>
+                </div> <!-- / .row -->
+              </div>
+              <div class="card-body">
+
+                
+
+                <div class="row align-items-center">
+                  <div class="col-auto">
+                    
+                    <!-- Avatar -->
+                    <a href="yourwalletrewards.html" class="avatar avatar-lg">
+                      <span class="avatar-title rounded bg-white text-secondary">
+                        <span class="fe fe-award"></span>
+                      </span>
+                    </a>
+
+                  </div>
+                  <div class="col ml-n2">
+
+                    <!-- Title -->
+                    <h4 class="card-title mb-1">
+                      <a href="yourwalletrewards.html">Rewards</a>
+                    </h4>
+
+
+                    
+                  </div>
+                  <div class="col-auto">
+                    
+                    <h4 class="card-title mb-1 text-muted">
+                      <a href="yourwalletrewards.html">£0.00</a>
+                    </h4>
+                    
+                  </div>
+                </div> <!-- / .row -->
+
+                <!-- Divider -->
+                
+
+              </div> <!-- / .card-body -->
+            </div>
+
+          </div>
+          <div class="col-12 col-xl-4">
+            
+            <div class="card">
+              <div class="card-header">
+                <div class="row align-items-center">
+                  <div class="col">
+                    
+                    <!-- Title -->
+                    <h4 class="card-header-title">
+                      Recent transactions
+                    </h4>
+
+                  </div>
+                  <div class="col-auto">
+
+                    <!-- Link -->
+                    <a href="#!" class="small">View all</a>
+                    
+                  </div>
+                </div> <!-- / .row -->
+              </div>
+              <div class="card-body">
+
+                <div class="row align-items-center">
+                  <div class="col-auto">
+                    
+                    <a href="#!" class="avatar avatar-lg">
+                      <span class="avatar-title rounded bg-white text-secondary">
+                        <span class="fe fe-arrow-down-circle" style="color:#E63757;"></span>
+                      </span>
+                    </a>
+
+                  </div>
+                  <div class="col ml-n2">
+
+                    <!-- Title -->
+                    <h4 class="card-title mb-1">
+                      <a href="project-overview.html">Example transaction out</a>
+                    </h4>
+
+                    <!-- Time -->
+                    <p class="card-text small text-muted">
+                      <time datetime="2018-05-24">-£X.00 on 19/1/20</time>
+                    </p>
+                    
+                  </div>
+                  
+                </div> <!-- / .row -->
+
+                <!-- Divider -->
+                <hr>
+
+                <div class="row align-items-center">
+                  <div class="col-auto">
+                    
+                    <a href="#!" class="avatar avatar-lg">
+                      <span class="avatar-title rounded bg-white text-secondary">
+                        <span class="fe fe-arrow-up-circle" style="color:#00D97E;"></span>
+                      </span>
+                    </a>
+
+                  </div>
+                  <div class="col ml-n2">
+
+                    <!-- Title -->
+                    <h4 class="card-title mb-1">
+                      <a href="project-overview.html">Example transaction in</a>
+                    </h4>
+
+                    <!-- Time -->
+                    <p class="card-text small text-muted">
+                      <time datetime="2018-05-24">+£X.00 on X/1/20</time>
+                    </p>
+                    
+                  </div>
+                  
+                </div> <!-- / .row -->
+
+              </div> <!-- / .card-body -->
+            </div>
+
+          </div>
+        </div>
+          
+
+</div>
+
+<script>
+  jQuery(document).ready(function($) {
+    $(".clickable-row").click(function() {
+        window.location = $(this).data("href");
+    });
+});
+</script>

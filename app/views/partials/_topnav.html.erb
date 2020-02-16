@@ -1,0 +1,400 @@
+<nav class="navbar navbar-expand-lg " id="topnav">
+  <div class="container">
+
+    <!-- Toggler -->
+    <button class="navbar-toggler mr-auto" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Brand -->
+    <a class="navbar-brand mr-auto order-lg-first" href="/home.html">
+      <img src="<%= asset_pack_path 'media/images/logo.svg' %>" alt="..." class="navbar-brand-img" >
+    </a>
+
+    <!-- Form -->
+    <form class="form-inline mr-4 d-none d-lg-flex">
+      <div class="input-group input-group-rounded input-group-merge" data-toggle="lists" data-options='{"valueNames": ["name"]}'>
+
+        <!-- Input -->
+        <input type="search" class="form-control form-control-prepended  dropdown-toggle search" data-toggle="dropdown" placeholder="Search" aria-label="Search">
+        <div class="input-group-prepend">
+          <div class="input-group-text">
+            <i class="fe fe-search"></i>
+          </div>
+        </div>
+
+        
+
+      </div>
+    </form>
+
+    <!-- User -->
+    <div class="navbar-user">
+
+      <!-- Toggle -->
+        <a href="/yourwallet.html" class="navbar-user-link mr-2 d-none d-lg-block" role="button">
+          <span class="icon active">
+            <i class="fe fe-credit-card"></i>
+          </span>
+        </a>
+      
+      <!-- Dropdown -->
+      <div class="dropdown mr-4 d-none d-lg-flex">
+        
+        <!-- Toggle -->
+        <a href="#" class="navbar-user-link" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <span class="icon">
+            <i class="fe fe-bell"></i>
+          </span>
+        </a>
+
+        <!-- Menu -->
+        <div class="dropdown-menu dropdown-menu-right dropdown-menu-card">
+          <div class="card-header">
+            <div class="row align-items-center">
+              <div class="col">
+                
+                <!-- Title -->
+                <h5 class="card-header-title">
+                  Notifications
+                </h5>
+
+              </div>
+              <div class="col-auto">
+                
+                <!-- Link -->
+                <a href="#!" class="small">
+                  View all
+                </a>
+
+              </div>
+            </div> <!-- / .row -->
+          </div> <!-- / .card-header -->
+          <div class="card-body">
+
+            <!-- List group -->
+            <div class="list-group list-group-flush my-n3">
+              <a class="list-group-item px-0" href="#!">
+
+                <div class="row">
+                  <div class="col-auto">
+                    
+                    <!-- Avatar -->
+                    <div class="avatar avatar-sm">
+                      <img src="<%= asset_pack_path 'media/images/avatars/profiles/avatar-2.jpg' %>" alt="..." class="avatar-img rounded-circle" >
+                    </div>
+
+                  </div>
+                  <div class="col ml-n2">
+                    
+                    <!-- Content -->
+                    <div class="small text-muted">
+                      <strong class="text-body">Ab Hadley</strong> reacted to your post with a 😍
+                    </div>
+
+                  </div>
+                  <div class="col-auto">
+
+                    <small class="text-muted">
+                      2m
+                    </small>
+                    
+                  </div>
+                </div> <!-- / .row -->
+
+              </a>
+              <a class="list-group-item px-0" href="#!">
+
+                <div class="row">
+                  <div class="col-auto">
+                    
+                    <!-- Avatar -->
+                    <div class="avatar avatar-sm">
+                      <img src="<%= asset_pack_path 'media/images/avatars/profiles/avatar-3.jpg' %>" alt="..." class="avatar-img rounded-circle" >
+                    </div>
+
+                  </div>
+                  <div class="col ml-n2">
+                    
+                    <!-- Content -->
+                    <div class="small text-muted">
+                      <strong class="text-body">Adolfo Hess</strong> commented <blockquote class="text-body">“Great work, love it!” </blockquote>
+                    </div>
+
+                  </div>
+                  <div class="col-auto">
+
+                    <small class="text-muted">
+                      2m
+                    </small>
+                    
+                  </div>
+                </div> <!-- / .row -->
+
+              </a>
+              <a class="list-group-item px-0" href="#!">
+
+                <div class="row">
+                  <div class="col-auto">
+                    
+                    <!-- Avatar -->
+                    <div class="avatar avatar-sm">
+                      <img src="<%= asset_pack_path 'media/images/avatars/profiles/avatar-4.jpg' %>" alt="..." class="avatar-img rounded-circle" >
+                    </div>
+
+                  </div>
+                  <div class="col ml-n2">
+                    
+                    <!-- Content -->
+                    <div class="small text-muted">
+                      <strong class="text-body">Daniela Dewitt</strong> recognised you.
+                    </div>
+
+                  </div>
+                  <div class="col-auto">
+
+                    <small class="text-muted">
+                      2m
+                    </small>
+                    
+                  </div>
+                </div> <!-- / .row -->
+
+              </a>
+              <a class="list-group-item px-0" href="#!">
+
+                <div class="row">
+                  <div class="col-auto">
+                    
+                    <!-- Avatar -->
+                    <div class="avatar avatar-sm">
+                      <img src="<%= asset_pack_path 'media/images/avatars/profiles/avatar-5.jpg' %>" alt="..." class="avatar-img rounded-circle" >
+                    </div>
+
+                  </div>
+                  <div class="col ml-n2">
+                    
+                    <!-- Content -->
+                    <div class="small text-muted">
+                      <strong class="text-body">Miyah Myles</strong> shared your post with <strong class="text-body">Ryu Duke</strong>, <strong class="text-body">Glen Rouse</strong>, and <strong class="text-body">3 others</strong>.
+                    </div>
+
+                  </div>
+                  <div class="col-auto">
+
+                    <small class="text-muted">
+                      2m
+                    </small>
+                    
+                  </div>
+                </div> <!-- / .row -->
+
+              </a>
+              <a class="list-group-item px-0" href="#!">
+
+                <div class="row">
+                  <div class="col-auto">
+                    
+                    <!-- Avatar -->
+                    <div class="avatar avatar-sm">
+                      <img src="<%= asset_pack_path 'media/images/avatars/profiles/avatar-6.jpg' %>" alt="..." class="avatar-img rounded-circle" >
+                    </div>
+
+                  </div>
+                  <div class="col ml-n2">
+                    
+                    <!-- Content -->
+                    <div class="small text-muted">
+                      <strong class="text-body">Ryu Duke</strong> gave you a reward 😍
+                    </div>
+
+                  </div>
+                  <div class="col-auto">
+
+                    <small class="text-muted">
+                      2m
+                    </small>
+                    
+                  </div>
+                </div> <!-- / .row -->
+
+              </a>
+              <a class="list-group-item px-0" href="#!">
+
+                <div class="row">
+                  <div class="col-auto">
+                    
+                    <!-- Avatar -->
+                    <div class="avatar avatar-sm">
+                      <img src="<%= asset_pack_path 'media/images/avatars/profiles/avatar-7.jpg' %>" alt="..." class="avatar-img rounded-circle" >
+                    </div>
+
+                  </div>
+                  <div class="col ml-n2">
+                    
+                    <!-- Content -->
+                    <div class="small text-muted">
+                      <strong class="text-body">Glen Rouse</strong> gave you a new perk
+                    </div>
+
+                  </div>
+                  <div class="col-auto">
+
+                    <small class="text-muted">
+                      2m
+                    </small>
+                    
+                  </div>
+                </div> <!-- / .row -->
+
+              </a>
+              <a class="list-group-item px-0" href="#!">
+
+                <div class="row">
+                  <div class="col-auto">
+                    
+                    <!-- Avatar -->
+                    <div class="avatar avatar-sm">
+                      <img src="<%= asset_pack_path 'media/images/avatars/profiles/avatar-8.jpg' %>" alt="..." class="avatar-img rounded-circle" >
+                    </div>
+
+                  </div>
+                  <div class="col ml-n2">
+                    
+                    <!-- Content -->
+                    <div class="small text-muted">
+                      <strong class="text-body">Grace Gross</strong> sent a feedback survey.
+                    </div>
+
+                  </div>
+                  <div class="col-auto">
+
+                    <small class="text-muted">
+                      2m
+                    </small>
+                    
+                  </div>
+                </div> <!-- / .row -->
+
+              </a>
+            </div>
+            
+          </div>
+        </div> <!-- / .dropdown-menu -->
+
+      </div>
+
+      <!-- Dropdown -->
+      <div class="dropdown">
+        
+        <!-- Toggle -->
+        <a href="#" class="avatar avatar-sm avatar-online dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <img src="<%= asset_pack_path 'media/images/avatars/profiles/avatar-1.jpg' %>" alt="..." class="avatar-img rounded-circle" >
+        </a>
+
+        <!-- Menu -->
+        <div class="dropdown-menu dropdown-menu-right">
+          <a href="#" class="dropdown-item d-lg-none">Notifications</a>
+          <a href="yourwallet.html" class="dropdown-item d-lg-none">Wallet <span class="badge badge-soft-primary float-right">£20.00</span>
+          </a>
+          <a href="yoursettings.html" class="dropdown-item">Settings</a>
+          <a href="yourpurchases.html" class="dropdown-item">Purchases & redemption</a>
+          <hr class="dropdown-divider">
+          <a href="sign-in.html" class="dropdown-item">Logout</a>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Collapse -->
+    <div class="collapse navbar-collapse mr-auto order-lg-first" id="navbar">
+
+      <!-- Form -->
+      <form class="mt-4 mb-3 d-md-none">
+        <input type="search" class="form-control form-control-rounded" placeholder="Search" aria-label="Search">
+      </form>
+
+      <!-- Navigation -->
+      <ul class="navbar-nav mr-auto">
+        <% if current_page?('/home.html') %>
+
+
+        <li class="nav-item">
+          <a class="nav-link active" href="home.html" role="button" aria-expanded="false">
+            Home
+          </a>
+        </li>
+
+        <% else %>
+
+        <li class="nav-item">
+          <a class="nav-link" href="home.html" role="button" aria-expanded="false">
+            Home
+          </a>
+        </li>
+
+        <% end %>
+
+        
+
+        <% if current_page?('/for_you.html') || current_page?('/for_you_awards.html') || current_page?('/for_you_recognition.html') || current_page?('/for_you_rewards.html') %>
+
+        <li class="nav-item">
+          <a class="nav-link active" href="for_you.html" role="button" aria-expanded="<%= locals[:category] == 'pages' %>" aria-controls="sidebarPages">
+            For you
+          </a>
+        </li>
+
+        <% else %>
+
+        <li class="nav-item">
+          <a class="nav-link" href="for_you.html" role="button" aria-expanded="<%= locals[:category] == 'pages' %>" aria-controls="sidebarPages">
+            For you
+          </a>
+        </li>
+
+
+        <% end %>
+
+        <% if current_page?('/culture_hub1.html') %>
+
+        <li class="nav-item">
+          <a class="nav-link active" href="culture_hub1.html" role="button" aria-expanded="false">
+            Culture Hub
+          </a>
+        </li>
+
+        <% else %>
+
+        <li class="nav-item">
+          <a class="nav-link" href="culture_hub1.html" role="button" aria-expanded="false">
+            Culture Hub
+          </a>
+        </li>
+
+        <% end %>
+
+        <% if current_page?('/marketplace.html') %>
+        
+        <li class="nav-item">
+          <a class="nav-link active" href="marketplace.html" role="button" aria-controls="sidebarDashboards">
+            Marketplace <span class="badge badge-soft-primary ml-auto">£20.00</span>
+          </a>
+        </li>
+
+        <% else %>
+
+        <li class="nav-item">
+          <a class="nav-link" href="marketplace.html" role="button" aria-controls="sidebarDashboards">
+            Marketplace <span class="badge badge-soft-primary ml-auto">£20.00</span>
+          </a>
+        </li>
+
+        <% end %>
+      </ul>
+
+    </div>
+
+  </div> <!-- / .container -->
+</nav>

@@ -1,0 +1,41 @@
+version: "3"
+
+services:
+  app:
+    image: visiontype:development
+    build:
+      context: .
+      dockerfile: ./docker/development/Dockerfile
+
+    env_file: ./docker/development/Envfile
+    ports:
+      - "3000:3000"
+    depends_on:
+      - postgres
+    volumes:
+      - .:/app
+      - /app/node_modules
+    command: sh -c "( bundle exec rake db:migrate 2>/dev/null || bundle exec rake db:create db:migrate ) && bundle exec puma -C config/puma.rb" 
+
+
+  webpacker:
+    image: visiontype:development
+    env_file: ./docker/development/Envfile
+    ports:
+      - 3035:3035
+    volumes:
+      - .:/app
+      - /app/node_modules
+    command: ./bin/webpack-dev-server
+
+  postgres:
+    image: postgres:9.6-alpine
+    environment:
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - "postgres:/var/lib/postgresql/data"
+
+volumes:
+  postgres:

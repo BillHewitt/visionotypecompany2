@@ -1,0 +1,836 @@
+
+<%= render 'partials/modals' %>
+<%= render 'partials/sidebar', locals: {category: :pages, subcategory: :feed} %>
+<%= render 'partials/sidebar-sm', locals: {category: :pages, subcategory: :feed} %>
+<%= render 'partials/topnav', locals: {category: :pages, subcategory: :feed} %>
+<div class="main-content bg-fixed-bottom">
+
+      <%= render 'partials/topbar' %>
+
+      <!-- HEADER -->
+      <div class="header">
+        <div class="container-fluid">
+
+          <!-- Body -->
+          <div class="header-body">
+            <div class="row align-items-end">
+              <div class="col-md-12 col-lg-6 col-xl-6">
+                
+ <!-- Pretitle -->
+                <h6 class="header-pretitle">
+                  Culture hub
+                </h6>
+
+                <!-- Title -->
+                <h2 class="header-title">
+                  Connect and contribute
+                </h2>
+
+              </div>
+              <div class="col-md-12 col-lg-6 col-xl-6">
+
+                <!-- Dropdown -->
+                    
+                    <!-- Dropdown -->
+                    <div class="dropdown">
+
+                      <!-- Toggle -->
+                      <a href="#" class="dropdown-toggle btn btn-white float-right d-none d-lg-block" data-toggle="dropdown">
+                        Whole company
+                      </a>
+
+                      <!-- Menu -->
+                      <div class="dropdown-menu dropdown-menu-right">
+                        <a class="dropdown-item sort" data-sort="name" href="#!">
+                          Team 1
+                        </a>
+                        <a class="dropdown-item sort" data-sort="name" href="#!">
+                          Team 2
+                        </a>
+                      </div>
+
+                    </div>
+
+                    <!-- Dropdown -->
+                    <div class="dropdown">
+
+                      <!-- Toggle -->
+                      <a href="#" class="dropdown-toggle btn btn-white btn-block d-lg-none mt-3" data-toggle="dropdown">
+                        Whole company
+                      </a>
+
+                      <!-- Menu -->
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item sort" data-sort="name" href="#!">
+                          Team 1
+                        </a>
+                        <a class="dropdown-item sort" data-sort="name" href="#!">
+                          Team 2
+                        </a>
+                      </div>
+
+                    </div>
+
+            </div> <!-- / .row -->
+          </div> <!-- / .header-body -->
+
+        </div>
+      </div> <!-- / .header -->
+
+      <div class="container-fluid">
+        <div class="row mt-4 mt-md-5">
+          <div class="col-12 col-xl-8">
+
+          
+
+
+            <div class="card">
+              <div class="card-body">
+                
+                <!-- Form -->
+                <form>
+                  <div class="form-group">
+                    <textarea class="form-control form-control-flush form-control-auto" data-toggle="autosize" rows="3" placeholder="Start a post..." style="overflow: hidden; word-wrap: break-word; height: 68px;"></textarea>
+                  </div>
+                </form>
+
+                <!-- Footer -->
+                <div class="row align-items-center">
+                  <div class="col">
+                    
+                    <!-- Symbols -->
+                    <small class="text-muted">
+                      0/500
+                    </small>
+
+                  </div>
+                  <div class="col-auto">
+                    
+                    <!-- Icons -->
+                    <div class="text-muted">
+                      <a class="text-reset mr-3" href="#!" data-toggle="tooltip" title="" data-original-title="Add photo">
+                        <i class="fe fe-camera"></i>
+                      </a>
+                      <a class="text-reset mr-3" href="#!" data-toggle="tooltip" title="" data-original-title="Attach file">
+                        <i class="fe fe-paperclip"></i>
+                      </a>
+                      <a class="text-reset" href="#!" data-toggle="tooltip" title="" data-original-title="Create poll">
+                        <i class="fe fe-clipboard"></i>
+                      </a>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- Card -->
+            <div class="card">
+              <div class="card-body">
+                
+                <!-- Header -->
+                <div class="mb-3">
+                  <div class="row align-items-center">
+                    <div class="col-auto">
+                      
+                      <!-- Avatar -->
+                      <a href="#!" class="avatar">
+                        <img src="<%= asset_pack_path 'media/images/avatars/profiles/avatar-2.jpg' %>" alt="..." class="avatar-img rounded-circle" >
+                      </a>
+
+                    </div>
+                    <div class="col ml-n2">
+
+                      <!-- Title -->
+                      <h4 class="card-title mb-1">
+                        Ab Hadley
+                      </h4>
+
+                      <!-- Time -->
+                      <p class="card-text small text-muted">
+                        <span class="fe fe-clock"></span> <time datetime="2018-05-24">4hr ago</time>
+                      </p>
+                      
+                    </div>
+
+                    <div class="col-auto">
+                      
+                      <span class="badge badge-soft-secondary">Company value 1</span>
+                      
+                    </div>
+                    
+                  </div> <!-- / .row -->
+                </div>
+
+                <!-- Text -->
+                <p class="mb-3">
+                  The team here have thrown everything they have at it across the board; from customer success and marketing to partnerships and product, the team have pulled together to deliver success.
+As we close the month I’m incredibly proud to say we’ve doubled our previous record month and delivered $318k (£175k) of bookings, with deals on average 2.5x bigger than just 6 months ago.
+                </p>
+
+                <!-- Buttons -->
+                <div class="mb-3">
+                  <div class="row">
+                    <div class="col">
+
+                      <a href="#!" class="btn btn-sm btn-white">
+                        &#128512;
+                      </a>
+                      <a href="#!" class="btn btn-sm btn-white">
+                        &#128525; 2
+                      </a>
+                      <a href="#!" class="btn btn-sm btn-white">
+                        Add Reaction
+                      </a>
+
+                    </div>
+                    <div class="col-auto mr-n3">
+
+                      <div class="avatar-group d-none d-sm-flex">
+                        <a href="profile-posts.html" class="avatar avatar-xs" data-toggle="tooltip" title="Ab Hadley">
+                          <img src="<%= asset_pack_path 'media/images/avatars/profiles/avatar-2.jpg' %>" alt="..." class="avatar-img rounded-circle" >
+                        </a>
+                        <a href="profile-posts.html" class="avatar avatar-xs" data-toggle="tooltip" title="Adolfo Hess">
+                          <img src="<%= asset_pack_path 'media/images/avatars/profiles/avatar-3.jpg' %>" alt="..." class="avatar-img rounded-circle" >
+                        </a>
+                        <a href="profile-posts.html" class="avatar avatar-xs" data-toggle="tooltip" title="Daniela Dewitt">
+                          <img src="<%= asset_pack_path 'media/images/avatars/profiles/avatar-4.jpg' %>" alt="..." class="avatar-img rounded-circle" >
+                        </a>
+                        <a href="profile-posts.html" class="avatar avatar-xs" data-toggle="tooltip" title="Miyah Myles">
+                          <img src="<%= asset_pack_path 'media/images/avatars/profiles/avatar-5.jpg' %>" alt="..." class="avatar-img rounded-circle" >
+                        </a>
+                      </div>
+
+                    </div>
+                    <div class="col-auto">
+
+                      <a href="#!" class="btn btn-sm btn-white">
+                        Share
+                      </a>
+
+                    </div>
+                  </div> <!-- / .row -->
+                </div>
+
+                <!-- Divider -->
+                <hr>
+
+                <!-- Comments -->
+                
+
+                <div class="comment mb-3">
+                  <div class="row">
+                    <div class="col-auto">
+
+                      <!-- Avatar -->
+                      <a class="avatar avatar-sm" href="profile-posts.html">
+                        <img src="<%= asset_pack_path 'media/images/avatars/profiles/avatar-3.jpg' %>" alt="..." class="avatar-img rounded-circle" >
+                      </a>
+
+                    </div>
+                    <div class="col ml-n2">
+                      
+                      <!-- Body -->
+                      <div class="comment-body">
+
+                        <div class="row">
+                          <div class="col">
+
+                            <!-- Title -->
+                            <h5 class="comment-title">
+                              Adolfo Hess
+                            </h5>
+
+                          </div>
+                          <div class="col-auto">
+
+                            <!-- Time -->
+                            <time class="comment-time">
+                              11:12
+                            </time>
+
+                          </div>
+                        </div> <!-- / .row -->
+
+                        <!-- Text -->
+                        <p class="comment-text">
+                          Great work one and all, massive effort!
+                        </p>
+
+                      </div>
+
+                    </div>
+                  </div> <!-- / .row -->
+                </div>
+
+                <!-- Divider -->
+                <hr>
+
+                <!-- Form -->
+                <div class="row">
+                  <div class="col-auto">
+
+                    <!-- Avatar -->
+                    <div class="avatar avatar-sm">
+                      <img src="<%= asset_pack_path 'media/images/avatars/profiles/avatar-1.jpg' %>" alt="..." class="avatar-img rounded-circle" >
+                    </div>
+
+                  </div>
+                  <div class="col ml-n2">
+
+                    <!-- Input -->
+                    <form class="mt-1">
+                      <label class="sr-only">Leave a comment...</label>
+                      <textarea class="form-control form-control-flush" data-toggle="autosize" rows="1" placeholder="Leave a comment"></textarea>
+                    </form>
+
+                  </div>
+                  <div class="col-auto align-self-end">
+                    
+                    <!-- Icons -->
+                    <div class="text-muted mb-2">
+                      <a class="text-reset mr-3" href="#!" data-toggle="tooltip" title="Add photo">
+                        <i class="fe fe-camera"></i>
+                      </a>
+                      <a class="text-reset mr-3" href="#!" data-toggle="tooltip" title="Attach file">
+                        <i class="fe fe-paperclip"></i>
+                      </a>
+                      <a class="text-reset" href="#!" data-toggle="tooltip" title="Record audio">
+                        <i class="fe fe-mic"></i>
+                      </a>
+                    </div>
+
+                  </div>
+                </div> <!-- / .row -->
+
+              </div>
+            </div>
+
+            <!-- Card -->
+            <div class="card">
+              <div class="card-body">
+                
+                <!-- Header -->
+                <div class="mb-3">
+                  <div class="row align-items-center">
+                    <div class="col-auto">
+                      
+                      <!-- Avatar -->
+                      <a href="#!" class="avatar">
+                        <img src="<%= asset_pack_path 'media/images/avatars/profiles/avatar-3.jpg' %>" alt="..." class="avatar-img rounded-circle" >
+                      </a>
+
+                    </div>
+                    <div class="col ml-n2">
+
+                      <!-- Title -->
+                      <h4 class="card-title mb-1">
+                        Adolfo Hess
+                      </h4>
+
+                      <!-- Time -->
+                      <p class="card-text small text-muted">
+                        <span class="fe fe-clock"></span> <time datetime="2018-05-24">4hr ago</time>
+                      </p>
+                      
+                    </div>
+                    <div class="col-auto">
+                      
+                      <span class="badge badge-soft-secondary">Company value 2</span>
+                      
+                    </div>
+                  </div> <!-- / .row -->
+                </div>
+
+                <!-- Text -->
+                <p>
+                  Because a golden pineapple just wasn’t enough... I’m thrilled to announce that we won ‘B2B marketing team of the year’ at the B2B Marketing Awards last night 🎉 🎉 🎉... I’m  legit over the moon and just so incredibly proud of the whole team for this amazing achievement 😊 Special thanks to <span class="badge badge-soft-primary">@Jimmy Fallon</span> and <span class="badge badge-soft-primary">Ricky Hatton</span> for the fantastic submission - come grab a spare booklet to see why we won #winnerswin #1T1C
+                </p>
+
+                <!-- Divider -->
+                <hr>
+
+                <!-- Buttons -->
+                <div class="mb-3">
+                  <div class="row">
+                    <div class="col">
+
+                      <a href="#!" class="btn btn-sm btn-white">
+                        &#128525; 47
+                      </a>
+                      <a href="#!" class="btn btn-sm btn-white">
+                        Add Reaction
+                      </a>
+
+                    </div>
+                    <div class="col-auto mr-n3">
+
+                      <div class="avatar-group d-none d-sm-flex">
+                        <a href="profile-posts.html" class="avatar avatar-xs" data-toggle="tooltip" title="Ab Hadley">
+                          <img src="<%= asset_pack_path 'media/images/avatars/profiles/avatar-6.jpg' %>" alt="..." class="avatar-img rounded-circle" >
+                        </a>
+                        <a href="profile-posts.html" class="avatar avatar-xs" data-toggle="tooltip" title="Adolfo Hess">
+                          <img src="<%= asset_pack_path 'media/images/avatars/profiles/avatar-2.jpg' %>" alt="..." class="avatar-img rounded-circle" >
+                        </a>
+                        <a href="profile-posts.html" class="avatar avatar-xs" data-toggle="tooltip" title="Daniela Dewitt">
+                          <img src="<%= asset_pack_path 'media/images/avatars/profiles/avatar-4.jpg' %>" alt="..." class="avatar-img rounded-circle" >
+                        </a>
+                        <a href="profile-posts.html" class="avatar avatar-xs" data-toggle="tooltip" title="Miyah Myles">
+                          <img src="<%= asset_pack_path 'media/images/avatars/profiles/avatar-5.jpg' %>" alt="..." class="avatar-img rounded-circle" >
+                        </a>
+                      </div>
+
+                    </div>
+                    <div class="col-auto">
+
+                      <a href="#!" class="btn btn-sm btn-white">
+                        Share
+                      </a>
+
+                    </div>
+                  </div> <!-- / .row -->
+                </div>
+
+                <!-- Divider -->
+                <hr>
+
+                <!-- Form -->
+                <div class="row">
+                  <div class="col-auto">
+
+                    <!-- Avatar -->
+                    <div class="avatar avatar-sm">
+                      <img src="<%= asset_pack_path 'media/images/avatars/profiles/avatar-1.jpg' %>" alt="..." class="avatar-img rounded-circle" >
+                    </div>
+
+                  </div>
+                  <div class="col ml-n2">
+
+                    <!-- Input -->
+                    <form class="mt-1">
+                      <label class="sr-only">Leave a comment...</label>
+                      <textarea class="form-control form-control-flush" data-toggle="autosize" rows="1" placeholder="Leave a comment"></textarea>
+                    </form>
+
+                  </div>
+                  <div class="col-auto align-self-end">
+                    
+                    <!-- Icons -->
+                    <div class="text-muted mb-2">
+                      <a class="text-reset mr-3" href="#!" data-toggle="tooltip" title="Add photo">
+                        <i class="fe fe-camera"></i>
+                      </a>
+                      <a class="text-reset mr-3" href="#!" data-toggle="tooltip" title="Attach file">
+                        <i class="fe fe-paperclip"></i>
+                      </a>
+                      <a class="text-reset" href="#!" data-toggle="tooltip" title="Record audio">
+                        <i class="fe fe-mic"></i>
+                      </a>
+                    </div>
+
+                  </div>
+                </div> <!-- / .row -->
+
+              </div>
+            </div>
+
+            <!-- Card -->
+            <div class="card">
+              <div class="card-body">
+                
+                <!-- Header -->
+                <div class="mb-3">
+                  <div class="row align-items-center">
+                    <div class="col-auto">
+                      
+                      <!-- Avatar -->
+                      <a href="#!" class="avatar">
+                        <img src="<%= asset_pack_path 'media/images/avatars/profiles/avatar-4.jpg' %>" alt="..." class="avatar-img rounded-circle" >
+                      </a>
+
+                    </div>
+                    <div class="col ml-n2">
+
+                      <!-- Title -->
+                      <h4 class="card-title mb-1">
+                        Daniella Dewitt
+                      </h4>
+
+                      <!-- Time -->
+                      <p class="card-text small text-muted">
+                        <span class="fe fe-clock"></span> <time datetime="2018-05-24">4hr ago</time>
+                      </p>
+                      
+                    </div>
+                    <div class="col-auto">
+                      
+                      <span class="badge badge-soft-secondary">Company value 3</span>
+                      
+                    </div>
+
+                  </div> <!-- / .row -->
+                </div>
+
+                <!-- Text -->
+                <p class="mb-3">
+                  We ran an event the other day. Check out this photo we took. Fun times for <a href="#!" class="badge badge-soft-primary">@Ab</a> or <a href="#!" class="badge badge-soft-primary">@Adolfo</a>!
+                </p>
+
+                <p class="text-center mb-3">
+                  <img src="<%= asset_pack_path 'media/images/covers/profile-cover-1.jpg'%>" alt="..." class="img-fluid rounded">
+                </p>
+
+                <!-- Buttons -->
+                <div class="mb-3">
+                  <div class="row">
+                    <div class="col">
+
+                      <a href="#!" class="btn btn-sm btn-white">
+                        &#128525; 12
+                      </a>
+                      <a href="#!" class="btn btn-sm btn-white">
+                        Add Reaction
+                      </a>
+
+                    </div>
+                    <div class="col-auto mr-n3">
+
+                      <div class="avatar-group d-none d-sm-flex">
+                        <a href="profile-posts.html" class="avatar avatar-xs" data-toggle="tooltip" title="Glen Rouse">
+                          <img src="<%= asset_pack_path 'media/images/avatars/profiles/avatar-7.jpg' %>" alt="..." class="avatar-img rounded-circle" >
+                        </a>
+                        <a href="profile-posts.html" class="avatar avatar-xs" data-toggle="tooltip" title="Ab Hadley">
+                          <img src="<%= asset_pack_path 'media/images/avatars/profiles/avatar-2.jpg' %>" alt="..." class="avatar-img rounded-circle" >
+                        </a>
+                      </div>
+
+                    </div>
+                    <div class="col-auto">
+
+                      <a href="#!" class="btn btn-sm btn-white">
+                        Share
+                      </a>
+
+                    </div>
+                  </div> <!-- / .row -->
+                </div>
+
+                <!-- Divider -->
+                <hr>
+
+                <!-- Comments -->
+                <div class="comment mb-3">
+                  <div class="row">
+                    <div class="col-auto">
+
+                      <!-- Avatar -->
+                      <a class="avatar avatar-sm" href="profile-posts.html">
+                        <img src="<%= asset_pack_path 'media/images/avatars/profiles/avatar-3.jpg' %>" alt="..." class="avatar-img rounded-circle" >
+                      </a>
+
+                    </div>
+                    <div class="col ml-n2">
+                      
+                      <!-- Body -->
+                      <div class="comment-body">
+
+                        <div class="row">
+                          <div class="col">
+
+                            <!-- Title -->
+                            <h5 class="comment-title">
+                              Adolfo Hess
+                            </h5>
+
+                          </div>
+                          <div class="col-auto">
+
+                            <!-- Time -->
+                            <time class="comment-time">
+                              11:12
+                            </time>
+
+                          </div>
+                        </div> <!-- / .row -->
+
+                        <!-- Text -->
+                        <p class="comment-text">
+                          Any chance you can link to a public gallery with all the photos in?
+                        </p>
+
+                      </div>
+
+                    </div>
+                  </div> <!-- / .row -->
+                </div>
+
+                <!-- Divider -->
+                <hr>
+
+                <!-- Form -->
+                <div class="row">
+                  <div class="col-auto">
+
+                    <!-- Avatar -->
+                    <div class="avatar avatar-sm">
+                      <img src="<%= asset_pack_path 'media/images/avatars/profiles/avatar-1.jpg' %>" alt="..." class="avatar-img rounded-circle" >
+                    </div>
+
+                  </div>
+                  <div class="col ml-n2">
+
+                    <!-- Input -->
+                    <form class="mt-1">
+                      <label class="sr-only">Leave a comment...</label>
+                      <textarea class="form-control form-control-flush" data-toggle="autosize" rows="1" placeholder="Leave a comment"></textarea>
+                    </form>
+
+                  </div>
+                  <div class="col-auto align-self-end">
+                    
+                    <!-- Icons -->
+                    <div class="text-muted mb-2">
+                      <a class="text-reset mr-3" href="#!" data-toggle="tooltip" title="Add photo">
+                        <i class="fe fe-camera"></i>
+                      </a>
+                      <a class="text-reset mr-3" href="#!" data-toggle="tooltip" title="Attach file">
+                        <i class="fe fe-paperclip"></i>
+                      </a>
+                      <a class="text-reset" href="#!" data-toggle="tooltip" title="Record audio">
+                        <i class="fe fe-mic"></i>
+                      </a>
+                    </div>
+
+                  </div>
+                </div> <!-- / .row -->
+
+              </div>
+            </div>
+            
+          </div>
+          <div class="col-12 col-xl-4">
+
+            <a href="#modalDemo2" class="btn btn-block btn-primary mb-4 d-none d-md-block" data-toggle="modal">
+        Recognition &amp; feedback
+      </a>
+            
+            <!-- Card -->
+            <div class="card">
+              <div class="card-header">
+                <div class="row align-items-center">
+                  <div class="col">
+
+                    <!-- Title -->
+                    <h4 class="card-header-title">
+                      Award winners
+                    </h4>
+
+                  </div>
+                  <div class="col-auto">
+
+                    <!-- Link -->
+                    <a class="small" href="#!">
+                      View all
+                    </a>
+
+                  </div>
+                </div> <!-- / .row -->
+              </div>
+              <div class="card-body">
+                
+                <!-- Item -->
+                <div class="row align-items-center">
+                  <div class="col-auto">
+                    
+                    <!-- Avatar -->
+                    <a href="profile-posts.html" class="avatar">
+                      <img src="<%= asset_pack_path 'media/images/avatars/profiles/avatar-6.jpg' %>" alt="..." class="avatar-img rounded-circle" >
+                    </a>
+
+                  </div>
+                  <div class="col ml-n2">
+                    
+                    <!-- Title -->
+                    <h4 class="card-title mb-1">
+                      <a href="profile-posts.html">John Rolph</a>
+                    </h4>
+
+                    <!-- Status -->
+                    <p class="card-text small">
+                      <span class="badge badge-soft-secondary">Company value 1</span>
+                    </p>
+
+                  </div>
+                  <div class="col-auto">
+                    
+                    <!-- Button -->
+                    <a href="#!" class="btn btn-sm btn-white">
+                      Read more
+                    </a>
+
+                  </div>
+                </div>
+
+                <!-- Divider -->
+                <hr>
+
+                <!-- Item -->
+                <div class="row align-items-center">
+                  <div class="col-auto">
+                    
+                    <!-- Avatar -->
+                    <a href="profile-posts.html" class="avatar">
+                      <img src="<%= asset_pack_path 'media/images/avatars/profiles/avatar-2.jpg' %>" alt="..." class="avatar-img rounded-circle" >
+                    </a>
+
+                  </div>
+                  <div class="col ml-n2">
+                    
+                    <!-- Title -->
+                    <h4 class="card-title mb-1">
+                      <a href="profile-posts.html">Ab Hadley</a>
+                    </h4>
+
+                    <!-- Status -->
+                    <p class="card-text small">
+                      <span class="badge badge-soft-secondary">Company value 2</span>
+                    </p>
+
+                  </div>
+                  <div class="col-auto">
+                    
+                     <!-- Button -->
+                    <a href="#!" class="btn btn-sm btn-white">
+                      Read more
+                    </a>
+
+                  </div>
+                </div>
+
+                <!-- Divider -->
+                <hr>
+
+                <!-- Item -->
+                <div class="row align-items-center">
+                  <div class="col-auto">
+                    
+                    <!-- Avatar -->
+                    <a href="profile-posts.html" class="avatar">
+                      <img src="<%= asset_pack_path 'media/images/avatars/profiles/avatar-3.jpg' %>" alt="..." class="avatar-img rounded-circle" >
+                    </a>
+
+                  </div>
+                  <div class="col ml-n2">
+                    
+                    <!-- Title -->
+                    <h4 class="card-title mb-1">
+                      <a href="profile-posts.html">Adolfo Hess</a>
+                    </h4>
+
+                    <!-- Status -->
+                    <p class="card-text small">
+                      <span class="badge badge-soft-secondary">Company value 3</span>
+                    </p>
+
+                  </div>
+                  <div class="col-auto">
+                    
+                     <!-- Button -->
+                    <a href="#!" class="btn btn-sm btn-white">
+                      Read more
+                    </a>
+
+                  </div>
+                </div>
+
+                <!-- Divider -->
+                <hr>
+
+                <!-- Item -->
+                <div class="row align-items-center">
+                  <div class="col-auto">
+                    
+                    <!-- Avatar -->
+                    <a href="profile-posts.html" class="avatar">
+                      <img src="<%= asset_pack_path 'media/images/avatars/profiles/avatar-4.jpg' %>" alt="..." class="avatar-img rounded-circle" >
+                    </a>
+
+                  </div>
+                  <div class="col ml-n2">
+                    
+                    <!-- Title -->
+                    <h4 class="card-title mb-1">
+                      <a href="profile-posts.html">Daniela Dewitt</a>
+                    </h4>
+
+                    <!-- Status -->
+                    <p class="card-text small">
+                      <span class="badge badge-soft-secondary">Company value 1</span>
+                    </p>
+
+                  </div>
+                  <div class="col-auto">
+                    
+                     <!-- Button -->
+                    <a href="#!" class="btn btn-sm btn-white">
+                      Read more
+                    </a>
+
+                  </div>
+                </div>
+
+                <hr>
+
+                <div class="row">
+                  <div class="col-md-12">
+                    
+                    <a href="#!" class="btn btn-block btn-white btn-outline">
+                      Nominate a colleague
+                    </a>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- Card -->
+            <div class="card">
+              <div class="card-header">
+                <div class="row align-items-center">
+                  <div class="col">
+
+                    <!-- Title -->
+                    <h4 class="card-header-title">
+                      Action board
+                    </h4>
+
+                  </div>
+                  <div class="col-auto">
+
+                    <!-- Link -->
+                    <a class="small" href="#!">
+                      View action board
+                    </a>
+
+                  </div>
+                </div> <!-- / .row -->
+              </div>
+              <div class="card-body">
+                <p class="text-muted">
+                    Thanks for all your feedback in the pulse surveys. We're commited to continual improvement. Keep track of what we're currently working on and hold us accountable. 
+                  </p>
+              </div>
+                
+                
+            </div>
+
+
+           
+
+          </div>
+        </div>
+      </div>
+      
+    </div>

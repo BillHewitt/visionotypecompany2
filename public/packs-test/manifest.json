@@ -1,0 +1,135 @@
+{
+  "app.css": "/packs-test/css/app-2d3f945a.css",
+  "app.js": "/packs-test/js/app-8663f4eb1636700e2997.js",
+  "app.js.map": "/packs-test/js/app-8663f4eb1636700e2997.js.map",
+  "application.js": "/packs-test/js/application-4384cda75921891bcd12.js",
+  "application.js.map": "/packs-test/js/application-4384cda75921891bcd12.js.map",
+  "dark-mode.css": "/packs-test/css/dark-mode-a858906a.css",
+  "dark-mode.js": "/packs-test/js/dark-mode-6b780e1a952af376afab.js",
+  "dark-mode.js.map": "/packs-test/js/dark-mode-6b780e1a952af376afab.js.map",
+  "entrypoints": {
+    "app": {
+      "css": [
+        "/packs-test/css/app-2d3f945a.css"
+      ],
+      "js": [
+        "/packs-test/js/app-8663f4eb1636700e2997.js"
+      ],
+      "js.map": [
+        "/packs-test/js/app-8663f4eb1636700e2997.js.map"
+      ]
+    },
+    "application": {
+      "js": [
+        "/packs-test/js/application-4384cda75921891bcd12.js"
+      ],
+      "js.map": [
+        "/packs-test/js/application-4384cda75921891bcd12.js.map"
+      ]
+    },
+    "dark-mode": {
+      "css": [
+        "/packs-test/css/dark-mode-a858906a.css"
+      ],
+      "js": [
+        "/packs-test/js/dark-mode-6b780e1a952af376afab.js"
+      ],
+      "js.map": [
+        "/packs-test/js/dark-mode-6b780e1a952af376afab.js.map"
+      ]
+    },
+    "light-mode": {
+      "css": [
+        "/packs-test/css/light-mode-43cd5343.css"
+      ],
+      "js": [
+        "/packs-test/js/light-mode-ebc356f8da430920ef20.js"
+      ],
+      "js.map": [
+        "/packs-test/js/light-mode-ebc356f8da430920ef20.js.map"
+      ]
+    }
+  },
+  "light-mode.css": "/packs-test/css/light-mode-43cd5343.css",
+  "light-mode.js": "/packs-test/js/light-mode-ebc356f8da430920ef20.js",
+  "light-mode.js.map": "/packs-test/js/light-mode-ebc356f8da430920ef20.js.map",
+  "media/cerebrisans/cerebrisans-bold.eot": "/packs-test/media/cerebrisans/cerebrisans-bold-43a5f55c.eot",
+  "media/cerebrisans/cerebrisans-bold.svg": "/packs-test/media/cerebrisans/cerebrisans-bold-9d5cea30.svg",
+  "media/cerebrisans/cerebrisans-bold.ttf": "/packs-test/media/cerebrisans/cerebrisans-bold-4180e23f.ttf",
+  "media/cerebrisans/cerebrisans-bold.woff": "/packs-test/media/cerebrisans/cerebrisans-bold-73d4b835.woff",
+  "media/cerebrisans/cerebrisans-book.eot": "/packs-test/media/cerebrisans/cerebrisans-book-c3598e71.eot",
+  "media/cerebrisans/cerebrisans-book.svg": "/packs-test/media/cerebrisans/cerebrisans-book-74558f7a.svg",
+  "media/cerebrisans/cerebrisans-book.ttf": "/packs-test/media/cerebrisans/cerebrisans-book-f4cb1154.ttf",
+  "media/cerebrisans/cerebrisans-book.woff": "/packs-test/media/cerebrisans/cerebrisans-book-fbb210a6.woff",
+  "media/cerebrisans/cerebrisans-medium.eot": "/packs-test/media/cerebrisans/cerebrisans-medium-c01e4a7d.eot",
+  "media/cerebrisans/cerebrisans-medium.svg": "/packs-test/media/cerebrisans/cerebrisans-medium-189ee2de.svg",
+  "media/cerebrisans/cerebrisans-medium.ttf": "/packs-test/media/cerebrisans/cerebrisans-medium-66f3c3ae.ttf",
+  "media/cerebrisans/cerebrisans-medium.woff": "/packs-test/media/cerebrisans/cerebrisans-medium-abe53ace.woff",
+  "media/cerebrisans/cerebrisans-regular.eot": "/packs-test/media/cerebrisans/cerebrisans-regular-e63b280f.eot",
+  "media/cerebrisans/cerebrisans-regular.svg": "/packs-test/media/cerebrisans/cerebrisans-regular-c2f19932.svg",
+  "media/cerebrisans/cerebrisans-regular.ttf": "/packs-test/media/cerebrisans/cerebrisans-regular-91bff5f0.ttf",
+  "media/cerebrisans/cerebrisans-regular.woff": "/packs-test/media/cerebrisans/cerebrisans-regular-548f0235.woff",
+  "media/cerebrisans/cerebrisans-semibold.eot": "/packs-test/media/cerebrisans/cerebrisans-semibold-2a1663dd.eot",
+  "media/cerebrisans/cerebrisans-semibold.svg": "/packs-test/media/cerebrisans/cerebrisans-semibold-3dca02ed.svg",
+  "media/cerebrisans/cerebrisans-semibold.ttf": "/packs-test/media/cerebrisans/cerebrisans-semibold-25aa37ee.ttf",
+  "media/cerebrisans/cerebrisans-semibold.woff": "/packs-test/media/cerebrisans/cerebrisans-semibold-16e9c1c6.woff",
+  "media/feather/Feather.svg": "/packs-test/media/feather/Feather-65d68bd4.svg",
+  "media/feather/Feather.ttf": "/packs-test/media/feather/Feather-fe159434.ttf",
+  "media/feather/Feather.woff": "/packs-test/media/feather/Feather-d9c23068.woff",
+  "media/images/avatars/profiles/avatar-1.jpg": "/packs-test/media/images/avatars/profiles/avatar-1-b42f730bc711cff2f549ff3a1e515408.jpg",
+  "media/images/avatars/profiles/avatar-2.jpg": "/packs-test/media/images/avatars/profiles/avatar-2-a6ecdbaaf952c7ea6eb63f73b0ffd5bb.jpg",
+  "media/images/avatars/profiles/avatar-3.jpg": "/packs-test/media/images/avatars/profiles/avatar-3-79d5ea92dc98be7100296929ecc09b58.jpg",
+  "media/images/avatars/profiles/avatar-4.jpg": "/packs-test/media/images/avatars/profiles/avatar-4-e5f2b1297fe89ea2709d9a0f352965bf.jpg",
+  "media/images/avatars/profiles/avatar-5.jpg": "/packs-test/media/images/avatars/profiles/avatar-5-f99be24352700d68fae6976fc4b7bb71.jpg",
+  "media/images/avatars/profiles/avatar-6.jpg": "/packs-test/media/images/avatars/profiles/avatar-6-f850da0931a2aa12b048c8d9e9447a35.jpg",
+  "media/images/avatars/profiles/avatar-7.jpg": "/packs-test/media/images/avatars/profiles/avatar-7-ca42356249973b291183bff0ee1f0cbe.jpg",
+  "media/images/avatars/profiles/avatar-8.jpg": "/packs-test/media/images/avatars/profiles/avatar-8-5da7023ad0b06b5f37ddd0ff30aefc8f.jpg",
+  "media/images/avatars/projects/project-1.jpg": "/packs-test/media/images/avatars/projects/project-1-95967469cc043de193c28591fab95f9c.jpg",
+  "media/images/avatars/projects/project-2.jpg": "/packs-test/media/images/avatars/projects/project-2-d8dacaa4dac75725e5ced6390c3594f0.jpg",
+  "media/images/avatars/projects/project-3.jpg": "/packs-test/media/images/avatars/projects/project-3-1dbb2cdf493b5bed9e93df80a04685fa.jpg",
+  "media/images/avatars/projects/project-4.jpg": "/packs-test/media/images/avatars/projects/project-4-0168b1be4132a0add4e2165a000f3c1d.jpg",
+  "media/images/avatars/projects/project-5.jpg": "/packs-test/media/images/avatars/projects/project-5-01cf68a06c9f4a5cb39d87f825e43cc6.jpg",
+  "media/images/avatars/projects/project-6.jpg": "/packs-test/media/images/avatars/projects/project-6-07d6f9a700f1b0c6daff40f1d9f7e4a1.jpg",
+  "media/images/avatars/projects/project-7.jpg": "/packs-test/media/images/avatars/projects/project-7-cc7ea518bf188f50464f27aa69628c66.jpg",
+  "media/images/avatars/projects/project-8.jpg": "/packs-test/media/images/avatars/projects/project-8-4b0d2fda3bd558caf3504bdab06624f1.jpg",
+  "media/images/avatars/teams/team-logo-1.jpg": "/packs-test/media/images/avatars/teams/team-logo-1-87e1b12a8eeef2c15d231be1669e7b39.jpg",
+  "media/images/avatars/teams/team-logo-2.jpg": "/packs-test/media/images/avatars/teams/team-logo-2-1dc7641253ad60bb54ee74ec0a9e63ed.jpg",
+  "media/images/avatars/teams/team-logo-3.jpg": "/packs-test/media/images/avatars/teams/team-logo-3-0237be81ebcd574410a29a2d80b10656.jpg",
+  "media/images/avatars/teams/team-logo-4.jpg": "/packs-test/media/images/avatars/teams/team-logo-4-38387cc50faeb39a329a0e773a6855fe.jpg",
+  "media/images/avatars/teams/team-logo-5.jpg": "/packs-test/media/images/avatars/teams/team-logo-5-1f8abd30ac26e0b88ad171324eb4b28e.jpg",
+  "media/images/avatars/teams/team-logo-6.jpg": "/packs-test/media/images/avatars/teams/team-logo-6-f3d8a2410c66019dfa34205bacc1b0a2.jpg",
+  "media/images/avatars/teams/team-logo-7.jpg": "/packs-test/media/images/avatars/teams/team-logo-7-a79df7d4635ee64a149766f657b2e0bf.jpg",
+  "media/images/avatars/teams/team-logo-8.jpg": "/packs-test/media/images/avatars/teams/team-logo-8-8450a534c9e0de1fb3f29466ea1e9bc1.jpg",
+  "media/images/covers/auth-side-cover.jpg": "/packs-test/media/images/covers/auth-side-cover-15570f310c488ca660e833077c867a7c.jpg",
+  "media/images/covers/header-cover.jpg": "/packs-test/media/images/covers/header-cover-7259dc23b16a289d01ec0b22750705d4.jpg",
+  "media/images/covers/profile-cover-1.jpg": "/packs-test/media/images/covers/profile-cover-1-4c69a8826433a7c7c79757b1ed3dcf08.jpg",
+  "media/images/covers/profile-cover-2.jpg": "/packs-test/media/images/covers/profile-cover-2-806d8db0e40a9203bb215b9c3b184f0d.jpg",
+  "media/images/covers/profile-cover-3.jpg": "/packs-test/media/images/covers/profile-cover-3-a4c3e73bcabc1406f48c49a7fffcfd53.jpg",
+  "media/images/covers/profile-cover-4.jpg": "/packs-test/media/images/covers/profile-cover-4-906df6da1efef926a997747c2bbb3a68.jpg",
+  "media/images/covers/profile-cover-5.jpg": "/packs-test/media/images/covers/profile-cover-5-6e9c1b0747149b1d4dc106066c776d82.jpg",
+  "media/images/covers/profile-cover-6.jpg": "/packs-test/media/images/covers/profile-cover-6-a6da075e7479048d7653ac311adf0568.jpg",
+  "media/images/covers/profile-cover-7.jpg": "/packs-test/media/images/covers/profile-cover-7-4ee620d02f2459f4a49f582d4bc38923.jpg",
+  "media/images/covers/profile-cover-8.jpg": "/packs-test/media/images/covers/profile-cover-8-ab7e8c09afc2e36c87b3ac99f9318ed9.jpg",
+  "media/images/covers/sidebar-cover.jpg": "/packs-test/media/images/covers/sidebar-cover-67800023c9069518ebacc46bf7a518d9.jpg",
+  "media/images/covers/team-cover.jpg": "/packs-test/media/images/covers/team-cover-8ef39e2f7f1dd5e6f2eebf983187e02e.jpg",
+  "media/images/files/file-1.jpg": "/packs-test/media/images/files/file-1-6a9e16bf196d333e0949c2befdf6c60d.jpg",
+  "media/images/files/file-2.jpg": "/packs-test/media/images/files/file-2-6f5a9f762d8553e8f820e6b271f12a06.jpg",
+  "media/images/files/file-3.jpg": "/packs-test/media/images/files/file-3-25d168d07d998a0c4ec8723eeaf6d64f.jpg",
+  "media/images/files/file-4.jpg": "/packs-test/media/images/files/file-4-b0d6d7f0484f1d58b3dc708619a14bb2.jpg",
+  "media/images/illustrations/coworking.svg": "/packs-test/media/images/illustrations/coworking-b22ecef104617474e48081a084e8d6f8.svg",
+  "media/images/illustrations/designer-life.svg": "/packs-test/media/images/illustrations/designer-life-9b9a90a07fa43f5312018aa8df658cde.svg",
+  "media/images/illustrations/happiness.svg": "/packs-test/media/images/illustrations/happiness-ef8d9cfd01d3ffb181d9f55623c52a0a.svg",
+  "media/images/illustrations/lost.svg": "/packs-test/media/images/illustrations/lost-4799c96fc30525cbddb6e101c519ee87.svg",
+  "media/images/illustrations/meditate.svg": "/packs-test/media/images/illustrations/meditate-2b5c30ab06674f1e10c1c4d3ed8a5ce8.svg",
+  "media/images/illustrations/scale.svg": "/packs-test/media/images/illustrations/scale-979e77df5ce27fb89d44294e81a4d40d.svg",
+  "media/images/illustrations/sticky.svg": "/packs-test/media/images/illustrations/sticky-506a9e9bb4b9194c8afb5e3142935ab6.svg",
+  "media/images/kanban/kanban-1.jpg": "/packs-test/media/images/kanban/kanban-1-370159a22aa761842325d96e129ac70f.jpg",
+  "media/images/kanban/kanban-2.jpg": "/packs-test/media/images/kanban/kanban-2-0dfcd11a7797b0aba041b23872b1269b.jpg",
+  "media/images/logo.svg": "/packs-test/media/images/logo-3d32146c7a93293e451edd9c63a91b2c.svg",
+  "media/images/masks/avatar-group-hover-last.svg": "/packs-test/media/images/masks/avatar-group-hover-last-6ac726130dcb2db3245cbd2b42a47685.svg",
+  "media/images/masks/avatar-group-hover.svg": "/packs-test/media/images/masks/avatar-group-hover-672e50f73963cf97baae196cf2c7a7bd.svg",
+  "media/images/masks/avatar-group.svg": "/packs-test/media/images/masks/avatar-group-936a2d3aedfe174ffaf564808de152fe.svg",
+  "media/images/masks/avatar-status.svg": "/packs-test/media/images/masks/avatar-status-7ca4c2012feeb8ac3a01a078c0177b36.svg",
+  "media/images/masks/icon-status.svg": "/packs-test/media/images/masks/icon-status-c971ca1909311eb4bd25cf62905f6d03.svg",
+  "media/images/posts/post-1.jpg": "/packs-test/media/images/posts/post-1-a17f96793af68c457bee35681101a257.jpg"
+}

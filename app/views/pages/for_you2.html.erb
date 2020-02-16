@@ -1,0 +1,1486 @@
+
+<%= render 'partials/modals' %>
+<%= render 'partials/sidebar', locals: {category: :pages, subcategory: :project} %>
+<%= render 'partials/sidebar-sm', locals: {category: :pages, subcategory: :project} %>
+<%= render 'partials/topnav', locals: {category: :pages, subcategory: :project} %>
+<div class="main-content">
+
+      <%= render 'partials/topbar' %>
+
+      <!-- HEADER -->
+      <div class="header">
+        <div class="container-fluid">
+          
+          <!-- Body -->
+          <div class="header-body">
+            <div class="row align-items-center">
+              <div class="col-auto">
+
+                <!-- Avatar -->
+                <div class="avatar avatar-lg">
+                  <img src="<%= asset_pack_path 'media/images/avatars/profiles/avatar-1.jpg' %>" alt="..." class="avatar-img rounded-circle" >
+                </div>
+
+              </div>
+              <div class="col ml-n3 ml-md-n2">
+                
+                <!-- Pretitle -->
+                <h6 class="header-pretitle">
+                  For you
+                </h6>
+
+                <!-- Title -->
+                <h2 class="header-title">
+                  Your experience, curated
+                </h2>
+
+              </div>
+              
+            </div> <!-- / .row -->
+            <div class="row align-items-center">
+              <div class="col">
+                
+                <!-- Nav -->
+                <ul class="nav nav-tabs nav-overflow header-tabs">
+                  <li class="nav-item">
+                    <a href="for_you.html" class="nav-link active">
+                      Benefits
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="for_you_rewards.html" class="nav-link">
+                      Rewards
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="project-reports.html" class="nav-link">
+                      Recognition
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="project-reports.html" class="nav-link">
+                      Awards
+                    </a>
+                  </li>
+                </ul>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div> <!-- / .header -->
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xl-7 col-md-7 col-sm-12">
+            <div class="card">
+              <div class="card-header">
+                <div class="row align-items-center">
+                  <div class="col">
+                    
+                    <!-- Title -->
+                    <h4 class="card-header-title">
+                      Your benefits
+                    </h4>
+
+                  </div>
+                  <div class="col-auto">
+
+                    <div class="dropdown">
+
+                      <!-- Toggle -->
+                      <a href="#" class="small text-muted dropdown-toggle" data-toggle="dropdown">
+                        Sort by
+                      </a>
+
+                      <!-- Menu -->
+                      <div class="dropdown-menu dropdown-menu-right">
+                        <a class="dropdown-item sort" data-sort="name" href="#!">
+                          Most recent
+                        </a>
+                        <a class="dropdown-item sort" data-sort="name" href="#!">
+                          A - Z
+                        </a>
+                        <a class="dropdown-item sort" data-sort="name" href="#!">
+                          Z - A
+                        </a>
+                      </div>
+
+                    </div>
+                    
+                  </div>
+                </div> <!-- / .row -->
+              </div>
+
+              <div class="card-header">
+                <div class="row">
+                  <div class="col-12">
+                    
+                    <!-- Form -->
+                    <form>
+                      <div class="input-group input-group-flush input-group-merge">
+                        <input type="search" class="form-control form-control-prepended search" placeholder="Search">
+                        <div class="input-group-prepend">
+                          <div class="input-group-text">
+                            <span class="fe fe-search"></span>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+
+                  </div>
+                </div> <!-- / .row -->
+              </div>
+
+              <div class="card-body">
+
+                <div class="row align-items-center">
+                  <div class="col-auto">
+                    
+                    <!-- Avatar -->
+                    <a href="project-overview.html" class="avatar avatar-4by3">
+                      <img src="<%= asset_pack_path 'media/images/brands/credit.png'%>" alt="..." class="avatar-img rounded">
+                    </a>
+
+                  </div>
+                  <div class="col ml-n2">
+
+                    <!-- Title -->
+                    <h4 class="card-title mb-1">
+                      <a href="project-overview.html">Perkbox Marketplace Budget</a>
+                    </h4>
+
+                    <!-- Time -->
+                    <p class="card-text small text-muted">
+                      £20.00 recurring monthly top-ups
+                    </p>
+                    
+                  </div>
+                  <div class="col-auto">
+                    
+                    <!-- Dropdown -->
+                    <div class="dropdown">
+                      <a href="#" class="dropdown-ellipses dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fe fe-more-vertical"></i>
+                      </a>
+                      <div class="dropdown-menu dropdown-menu-right">
+                        <a href="#!" class="dropdown-item">
+                          Action
+                        </a>
+                        <a href="#!" class="dropdown-item">
+                          Another action
+                        </a>
+                        <a href="#!" class="dropdown-item">
+                          Something else here
+                        </a>
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div> <!-- / .row -->
+
+                <!-- Divider -->
+                <hr>
+
+                <div class="row align-items-center">
+                  <div class="col-auto">
+                    
+                    <!-- Avatar -->
+                    <a href="project-overview.html" class="avatar avatar-4by3">
+                      <img src="<%= asset_pack_path 'media/images/brands/ha.png'%>" alt="..." class="avatar-img rounded">
+                    </a>
+
+                  </div>
+                  <div class="col ml-n2">
+
+                    <!-- Title -->
+                    <h4 class="card-title mb-1">
+                      <a href="project-overview.html">Health Assured</a>
+                    </h4>
+
+                    <!-- Time -->
+                    <p class="card-text small text-muted">
+                      24/7 access to compassionate support (EAP)
+                    </p>
+                    
+                  </div>
+                  <div class="col-auto">
+                    
+                    <!-- Dropdown -->
+                    <div class="dropdown">
+                      <a href="#" class="dropdown-ellipses dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fe fe-more-vertical"></i>
+                      </a>
+                      <div class="dropdown-menu dropdown-menu-right">
+                        <a href="#!" class="dropdown-item">
+                          Action
+                        </a>
+                        <a href="#!" class="dropdown-item">
+                          Another action
+                        </a>
+                        <a href="#!" class="dropdown-item">
+                          Something else here
+                        </a>
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div> <!-- / .row -->
+
+                <!-- Divider -->
+                <hr>
+
+                <div class="row align-items-center">
+                  <div class="col-auto">
+                    
+                    <!-- Avatar -->
+                    <a href="project-overview.html" class="avatar avatar-4by3">
+                      <img src="<%= asset_pack_path 'media/images/brands/DCA.png'%>" alt="..." class="avatar-img rounded">
+                    </a>
+
+                  </div>
+                  <div class="col ml-n2">
+
+                    <!-- Title -->
+                    <h4 class="card-title mb-1">
+                      <a href="project-overview.html">Dr Care Anywhere</a>
+                    </h4>
+
+                    <!-- Time -->
+                    <p class="card-text small text-muted">
+                      <time datetime="2018-05-24">24/7 access to an online GP</time>
+                    </p>
+                    
+                  </div>
+                  <div class="col-auto">
+                    
+                    <!-- Dropdown -->
+                    <div class="dropdown">
+                      <a href="#" class="dropdown-ellipses dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fe fe-more-vertical"></i>
+                      </a>
+                      <div class="dropdown-menu dropdown-menu-right">
+                        <a href="#!" class="dropdown-item">
+                          Action
+                        </a>
+                        <a href="#!" class="dropdown-item">
+                          Another action
+                        </a>
+                        <a href="#!" class="dropdown-item">
+                          Something else here
+                        </a>
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div> <!-- / .row -->
+
+                <!-- Divider -->
+                <hr>
+
+                <div class="row align-items-center">
+                  <div class="col-auto">
+                    
+                    <!-- Avatar -->
+                    <a href="project-overview.html" class="avatar avatar-4by3">
+                      <img src="<%= asset_pack_path 'media/images/brands/calm.png'%>" alt="..." class="avatar-img rounded">
+                    </a>
+
+                  </div>
+                  <div class="col ml-n2">
+
+                    <!-- Title -->
+                    <h4 class="card-title mb-1">
+                      <a href="project-overview.html">Calm</a>
+                    </h4>
+
+                    <!-- Time -->
+                    <p class="card-text small text-muted">
+                      <time datetime="2018-05-24">Improve your meditation and sleep</time>
+                    </p>
+                    
+                  </div>
+                  <div class="col-auto">
+                    
+                    <!-- Dropdown -->
+                    <div class="dropdown">
+                      <a href="#" class="dropdown-ellipses dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fe fe-more-vertical"></i>
+                      </a>
+                      <div class="dropdown-menu dropdown-menu-right">
+                        <a href="#!" class="dropdown-item">
+                          Action
+                        </a>
+                        <a href="#!" class="dropdown-item">
+                          Another action
+                        </a>
+                        <a href="#!" class="dropdown-item">
+                          Something else here
+                        </a>
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div> <!-- / .row -->
+
+                <!-- Divider -->
+                <hr>
+
+                <div class="row align-items-center">
+                  <div class="col-auto">
+                    
+                    <!-- Avatar -->
+                    <a href="project-overview.html" class="avatar avatar-4by3">
+                      <img src="<%= asset_pack_path 'media/images/brands/magpie.png'%>" alt="..." class="avatar-img rounded">
+                    </a>
+
+                  </div>
+                  <div class="col ml-n2">
+
+                    <!-- Title -->
+                    <h4 class="card-title mb-1">
+                      <a href="project-overview.html">Magpie</a>
+                    </h4>
+
+                    <!-- Time -->
+                    <p class="card-text small text-muted">
+                      <time datetime="2018-05-24">AI-driven learning and development</time>
+                    </p>
+                    
+                  </div>
+                  <div class="col-auto">
+                    
+                    <!-- Dropdown -->
+                    <div class="dropdown">
+                      <a href="#" class="dropdown-ellipses dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fe fe-more-vertical"></i>
+                      </a>
+                      <div class="dropdown-menu dropdown-menu-right">
+                        <a href="#!" class="dropdown-item">
+                          Action
+                        </a>
+                        <a href="#!" class="dropdown-item">
+                          Another action
+                        </a>
+                        <a href="#!" class="dropdown-item">
+                          Something else here
+                        </a>
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div> <!-- / .row -->
+
+                <!-- Divider -->
+                <hr>
+
+                <div class="row align-items-center">
+                  <div class="col-auto">
+                    
+                    <!-- Avatar -->
+                    <a href="project-overview.html" class="avatar avatar-4by3">
+                      <img src="<%= asset_pack_path 'media/images/brands/hastee.png'%>" alt="..." class="avatar-img rounded">
+                    </a>
+
+                  </div>
+                  <div class="col ml-n2">
+
+                    <!-- Title -->
+                    <h4 class="card-title mb-1">
+                      <a href="project-overview.html">Hastee Pay</a>
+                    </h4>
+
+                    <!-- Time -->
+                    <p class="card-text small text-muted">
+                      <time datetime="2018-05-24">Get paid early - on demand</time>
+                    </p>
+                    
+                  </div>
+                  <div class="col-auto">
+                    
+                    <!-- Dropdown -->
+                    <div class="dropdown">
+                      <a href="#" class="dropdown-ellipses dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fe fe-more-vertical"></i>
+                      </a>
+                      <div class="dropdown-menu dropdown-menu-right">
+                        <a href="#!" class="dropdown-item">
+                          Action
+                        </a>
+                        <a href="#!" class="dropdown-item">
+                          Another action
+                        </a>
+                        <a href="#!" class="dropdown-item">
+                          Something else here
+                        </a>
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div> <!-- / .row -->
+
+                <!-- Divider -->
+                <hr>
+
+                <div class="row align-items-center">
+                  <div class="col-auto">
+                    
+                    <!-- Avatar -->
+                    <a href="project-overview.html" class="avatar avatar-4by3">
+                      <img src="<%= asset_pack_path 'media/images/brands/nero.png'%>" alt="..." class="avatar-img rounded">
+                    </a>
+
+                  </div>
+                  <div class="col ml-n2">
+
+                    <!-- Title -->
+                    <h4 class="card-title mb-1">
+                      <a href="project-overview.html">Cafe Nero</a>
+                    </h4>
+
+                    <!-- Time -->
+                    <p class="card-text small text-muted">
+                      <time datetime="2018-05-24">1 free coffee, every week</time>
+                    </p>
+                    
+                  </div>
+                  <div class="col-auto">
+                    
+                    <!-- Dropdown -->
+                    <div class="dropdown">
+                      <a href="#" class="dropdown-ellipses dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fe fe-more-vertical"></i>
+                      </a>
+                      <div class="dropdown-menu dropdown-menu-right">
+                        <a href="#!" class="dropdown-item">
+                          Action
+                        </a>
+                        <a href="#!" class="dropdown-item">
+                          Another action
+                        </a>
+                        <a href="#!" class="dropdown-item">
+                          Something else here
+                        </a>
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div> <!-- / .row -->
+
+                <!-- Divider -->
+                <hr>
+
+                <div class="row align-items-center">
+                  <div class="col-auto">
+                    
+                    <!-- Avatar -->
+                    <a href="project-overview.html" class="avatar avatar-4by3">
+                      <img src="<%= asset_pack_path 'media/images/brands/odeon.png'%>" alt="..." class="avatar-img rounded">
+                    </a>
+
+                  </div>
+                  <div class="col ml-n2">
+
+                    <!-- Title -->
+                    <h4 class="card-title mb-1">
+                      <a href="project-overview.html">Odeon</a>
+                    </h4>
+
+                    <!-- Time -->
+                    <p class="card-text small text-muted">
+                      <time datetime="2018-05-24">1 free cinema ticket, every month</time>
+                    </p>
+                    
+                  </div>
+                  <div class="col-auto">
+                    
+                    <!-- Dropdown -->
+                    <div class="dropdown">
+                      <a href="#" class="dropdown-ellipses dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fe fe-more-vertical"></i>
+                      </a>
+                      <div class="dropdown-menu dropdown-menu-right">
+                        <a href="#!" class="dropdown-item">
+                          Action
+                        </a>
+                        <a href="#!" class="dropdown-item">
+                          Another action
+                        </a>
+                        <a href="#!" class="dropdown-item">
+                          Something else here
+                        </a>
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div> <!-- / .row -->
+
+              </div> <!-- / .card-body -->
+            </div>
+          </div>
+            <div class="col-5">
+              <div class="card">
+                <div class="card-body text-center">
+                  <div class="row justify-content-center">
+                    <div class="col-8 col-xl-8">
+                  
+                      <!-- Image -->
+                      <img src="<%= asset_pack_path 'media/images/illustrations/happiness.svg'%>" alt="..." class="img-fluid mt-n5 mb-4" style="max-width: 272px;">
+
+                      <!-- Title -->
+                      <h2 class="mb-2">
+                        The Discount Collection
+                      </h2>
+
+                      <!-- Content -->
+                      <p class="text-muted">
+                        Get immediate access to financial savings across hundreds of retailers. Earn cash back when you link your card.
+                      </p>
+
+                      <!-- Button -->
+                      <a href="#!" class="btn btn-primary lift">
+                        Explore
+                      </a>
+                    
+                    </div>
+                  </div> <!-- / .row -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        <div class="row">
+          <div class="col-12">
+            <div class="card">
+              <div class="card-body text-center">
+                <div class="row justify-content-center">
+                  <div class="col-8 col-xl-8">
+                
+                    <!-- Image -->
+                    <img src="<%= asset_pack_path 'media/images/illustrations/happiness.svg'%>" alt="..." class="img-fluid mt-n5 mb-4" style="max-width: 272px;">
+
+                    <!-- Title -->
+                    <h2 class="mb-2">
+                      The Perkbox Collection
+                    </h2>
+
+                    <!-- Content -->
+                    <p class="text-muted">
+                      Get immediate access to hundreds of financial discounts. Earn cash back when you link your card.
+                    </p>
+
+                    <!-- Button -->
+                    <a href="#!" class="btn btn-primary lift">
+                      Explore
+                    </a>
+                  
+                  </div>
+                </div> <!-- / .row -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12 col-lg-3">
+            
+            <!-- Card -->
+            <div class="card">
+              <div class="card-body">
+
+                <!-- Dropdown -->
+                <div class="dropdown card-dropdown">
+                  <a href="#" class="dropdown-ellipses dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fe fe-more-vertical"></i>
+                  </a>
+                  <div class="dropdown-menu dropdown-menu-right">
+                    <a href="#!" class="dropdown-item">
+                      Don't show me this
+                    </a>
+                    <a href="#!" class="dropdown-item">
+                      Another action
+                    </a>
+                    <a href="#!" class="dropdown-item">
+                      Something else here
+                    </a>
+                  </div>
+                </div>
+                
+                <!-- Avatar -->
+                <div class="text-center">
+                  <a href="team-overview.html" class="card-avatar avatar avatar-lg mx-auto">
+                    <img src="<%= asset_pack_path 'media/images/brands/ha.png'%>" alt="..." class="avatar-img rounded">
+                  </a>
+                </div>
+
+                <!-- Title -->
+                <h2 class="card-title text-center mb-3">
+                  <a href="team-overview.html">Health Assured</a>
+                </h2>
+
+                <!-- Text -->
+                <p class="card-text text-center text-muted mb-4">
+                  Launchday is a SaaS website builder with a focus on quality, easy to build product sites.
+                </p>
+
+                <!-- Divider -->
+                <hr>
+
+                <div class="row align-items-center">
+                  <div class="col">
+                    
+                    <!-- Time -->
+                    <p class="card-text small text-muted">
+                      Company Value
+                    </p>
+
+                  </div>
+                  <div class="col-auto">
+                    
+                    <!-- Avatar group -->
+                    <div class="avatar-group">
+                      <a href="profile-posts.html" class="avatar avatar-xs" data-toggle="tooltip" title="" data-original-title="HR Director Name">
+                        <img src="/packs/media/images/avatars/profiles/avatar-5-f99be24352700d68fae6976fc4b7bb71.jpg" alt="..." class="avatar-img rounded-circle">
+                      </a>
+                    </div>
+
+                  </div>
+                </div> <!-- / .row -->
+
+              </div> <!-- / .card-body -->
+            </div>
+
+          </div>
+          <div class="col-12 col-lg-3">
+            
+            <!-- Card -->
+            <div class="card">
+              <div class="card-body">
+
+                <!-- Dropdown -->
+                <div class="dropdown card-dropdown">
+                  <a href="#" class="dropdown-ellipses dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fe fe-more-vertical"></i>
+                  </a>
+                  <div class="dropdown-menu dropdown-menu-right">
+                    <a href="#!" class="dropdown-item">
+                      Action
+                    </a>
+                    <a href="#!" class="dropdown-item">
+                      Another action
+                    </a>
+                    <a href="#!" class="dropdown-item">
+                      Something else here
+                    </a>
+                  </div>
+                </div>
+                
+                <!-- Avatar -->
+                <div class="text-center">
+                  <a href="team-overview.html" class="card-avatar avatar avatar-lg mx-auto">
+                    <img src="<%= asset_pack_path 'media/images/brands/DCA.png'%>" alt="..." class="avatar-img rounded">
+                  </a>
+                </div>
+
+                <!-- Title -->
+                <h2 class="card-title text-center mb-3">
+                  <a href="team-overview.html">Dr Care Anywhere</a>
+                </h2>
+
+                <!-- Text -->
+                <p class="card-text text-center text-muted mb-4">
+                  Medium is an online publishing platform developed by Evan Williams, August 2012. 
+                </p>
+
+                <!-- Divider -->
+                <hr>
+
+                <div class="row align-items-center">
+                  <div class="col">
+                    
+                    <!-- Time -->
+                    <p class="card-text small text-muted">
+                      <i class="fe fe-clock"></i> Updated 4hr ago
+                    </p>
+
+                  </div>
+                  <div class="col-auto">
+                    
+                    <!-- Avatar group -->
+                    <div class="avatar-group">
+                      <a href="profile-posts.html" class="avatar avatar-xs" data-toggle="tooltip" title="" data-original-title="Ab Hadley">
+                        <img src="/packs/media/images/avatars/profiles/avatar-2-a6ecdbaaf952c7ea6eb63f73b0ffd5bb.jpg" alt="..." class="avatar-img rounded-circle">
+                      </a>
+                      <a href="profile-posts.html" class="avatar avatar-xs" data-toggle="tooltip" title="" data-original-title="Adolfo Hess">
+                        <img src="/packs/media/images/avatars/profiles/avatar-3-79d5ea92dc98be7100296929ecc09b58.jpg" alt="..." class="avatar-img rounded-circle">
+                      </a>
+                      <a href="profile-posts.html" class="avatar avatar-xs" data-toggle="tooltip" title="" data-original-title="Daniela Dewitt">
+                        <img src="/packs/media/images/avatars/profiles/avatar-4-e5f2b1297fe89ea2709d9a0f352965bf.jpg" alt="..." class="avatar-img rounded-circle">
+                      </a>
+                      <a href="profile-posts.html" class="avatar avatar-xs" data-toggle="tooltip" title="" data-original-title="Miyah Myles">
+                        <img src="/packs/media/images/avatars/profiles/avatar-5-f99be24352700d68fae6976fc4b7bb71.jpg" alt="..." class="avatar-img rounded-circle">
+                      </a>
+                      <div class="avatar avatar-xs">
+                        <div class="avatar-title rounded-circle">+7</div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div> <!-- / .row -->
+
+              </div> <!-- / .card-body -->
+            </div>
+
+          </div>
+          <div class="col-12 col-lg-3">
+            
+            <!-- Card -->
+            <div class="card">
+              <div class="card-body">
+
+                <!-- Dropdown -->
+                <div class="dropdown card-dropdown">
+                  <a href="#" class="dropdown-ellipses dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fe fe-more-vertical"></i>
+                  </a>
+                  <div class="dropdown-menu dropdown-menu-right">
+                    <a href="#!" class="dropdown-item">
+                      Action
+                    </a>
+                    <a href="#!" class="dropdown-item">
+                      Another action
+                    </a>
+                    <a href="#!" class="dropdown-item">
+                      Something else here
+                    </a>
+                  </div>
+                </div>
+                
+                <!-- Avatar -->
+                <div class="text-center">
+                  <a href="team-overview.html" class="card-avatar avatar avatar-lg mx-auto">
+                    <img src="<%= asset_pack_path 'media/images/brands/magpie.png'%>" alt="..." class="avatar-img rounded">
+                  </a>
+                </div>
+
+                <!-- Title -->
+                <h2 class="card-title text-center mb-3">
+                  <a href="team-overview.html">5 Credits/month</a>
+                </h2>
+
+                <!-- Text -->
+                <p class="card-text text-center text-muted mb-4">
+                  Pick and choose what you value most from Perkbox store, or invest to let them grow
+                </p>
+
+                <!-- Divider -->
+                <hr>
+
+                <div class="row align-items-center">
+                  <div class="col">
+                    
+                    <!-- Time -->
+                    <p class="card-text small text-muted">
+                      <i class="fe fe-clock"></i> Updated 5hr ago
+                    </p>
+
+                  </div>
+                  <div class="col-auto">
+                    
+                    <!-- Avatar group -->
+                    <div class="avatar-group">
+                      <a href="profile-posts.html" class="avatar avatar-xs" data-toggle="tooltip" title="" data-original-title="Ab Hadley">
+                        <img src="/packs/media/images/avatars/profiles/avatar-2-a6ecdbaaf952c7ea6eb63f73b0ffd5bb.jpg" alt="..." class="avatar-img rounded-circle">
+                      </a>
+                      <a href="profile-posts.html" class="avatar avatar-xs" data-toggle="tooltip" title="" data-original-title="Adolfo Hess">
+                        <img src="/packs/media/images/avatars/profiles/avatar-3-79d5ea92dc98be7100296929ecc09b58.jpg" alt="..." class="avatar-img rounded-circle">
+                      </a>
+                      <a href="profile-posts.html" class="avatar avatar-xs" data-toggle="tooltip" title="" data-original-title="Daniela Dewitt">
+                        <img src="/packs/media/images/avatars/profiles/avatar-4-e5f2b1297fe89ea2709d9a0f352965bf.jpg" alt="..." class="avatar-img rounded-circle">
+                      </a>
+                      <a href="profile-posts.html" class="avatar avatar-xs" data-toggle="tooltip" title="" data-original-title="Miyah Myles">
+                        <img src="/packs/media/images/avatars/profiles/avatar-5-f99be24352700d68fae6976fc4b7bb71.jpg" alt="..." class="avatar-img rounded-circle">
+                      </a>
+                      <div class="avatar avatar-xs">
+                        <div class="avatar-title rounded-circle">+7</div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div> <!-- / .row -->
+
+              </div> <!-- / .card-body -->
+            </div>
+
+          </div>
+
+          <div class="col-12 col-lg-3">
+            
+            <!-- Card -->
+            <div class="card">
+              <div class="card-body">
+
+                <!-- Dropdown -->
+                <div class="dropdown card-dropdown">
+                  <a href="#" class="dropdown-ellipses dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fe fe-more-vertical"></i>
+                  </a>
+                  <div class="dropdown-menu dropdown-menu-right">
+                    <a href="#!" class="dropdown-item">
+                      Action
+                    </a>
+                    <a href="#!" class="dropdown-item">
+                      Another action
+                    </a>
+                    <a href="#!" class="dropdown-item">
+                      Something else here
+                    </a>
+                  </div>
+                </div>
+                
+                <!-- Avatar -->
+                <div class="text-center">
+                  <a href="team-overview.html" class="card-avatar avatar avatar-lg mx-auto">
+                    <img src="<%= asset_pack_path 'media/images/brands/magpie.png'%>" alt="..." class="avatar-img rounded">
+                  </a>
+                </div>
+
+                <!-- Title -->
+                <h2 class="card-title text-center mb-3">
+                  <a href="team-overview.html">5 Credits/month</a>
+                </h2>
+
+                <!-- Text -->
+                <p class="card-text text-center text-muted mb-4">
+                  Pick and choose what you value most from Perkbox store, or invest to let them grow
+                </p>
+
+                <!-- Divider -->
+                <hr>
+
+                <div class="row align-items-center">
+                  <div class="col">
+                    
+                    <!-- Time -->
+                    <p class="card-text small text-muted">
+                      <i class="fe fe-clock"></i> Updated 5hr ago
+                    </p>
+
+                  </div>
+                  <div class="col-auto">
+                    
+                    <!-- Avatar group -->
+                    <div class="avatar-group">
+                      <a href="profile-posts.html" class="avatar avatar-xs" data-toggle="tooltip" title="" data-original-title="Ab Hadley">
+                        <img src="/packs/media/images/avatars/profiles/avatar-2-a6ecdbaaf952c7ea6eb63f73b0ffd5bb.jpg" alt="..." class="avatar-img rounded-circle">
+                      </a>
+                      <a href="profile-posts.html" class="avatar avatar-xs" data-toggle="tooltip" title="" data-original-title="Adolfo Hess">
+                        <img src="/packs/media/images/avatars/profiles/avatar-3-79d5ea92dc98be7100296929ecc09b58.jpg" alt="..." class="avatar-img rounded-circle">
+                      </a>
+                      <a href="profile-posts.html" class="avatar avatar-xs" data-toggle="tooltip" title="" data-original-title="Daniela Dewitt">
+                        <img src="/packs/media/images/avatars/profiles/avatar-4-e5f2b1297fe89ea2709d9a0f352965bf.jpg" alt="..." class="avatar-img rounded-circle">
+                      </a>
+                      <a href="profile-posts.html" class="avatar avatar-xs" data-toggle="tooltip" title="" data-original-title="Miyah Myles">
+                        <img src="/packs/media/images/avatars/profiles/avatar-5-f99be24352700d68fae6976fc4b7bb71.jpg" alt="..." class="avatar-img rounded-circle">
+                      </a>
+                      <div class="avatar avatar-xs">
+                        <div class="avatar-title rounded-circle">+7</div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div> <!-- / .row -->
+
+              </div> <!-- / .card-body -->
+            </div>
+
+          </div>
+ 
+          
+        </div> <!-- / .row -->
+      </div>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+
+            <hr>
+            <br>
+            
+            <!-- Files -->
+            <div class="card" data-toggle="lists" data-options="{&quot;valueNames&quot;: [&quot;name&quot;]}">
+              <div class="card-header">
+                <div class="row align-items-center">
+                  <div class="col">
+                    
+                    <!-- Title -->
+                    <h4 class="card-header-title">
+                      Your purchases & redemptions
+                    </h4>
+
+                  </div>
+                  <div class="col-auto">
+                    
+                    <!-- Dropdown -->
+                    <div class="dropdown">
+
+                      <!-- Toggle -->
+                      <a href="#" class="small text-muted dropdown-toggle" data-toggle="dropdown">
+                        Sort order
+                      </a>
+
+                      <!-- Menu -->
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item sort" data-sort="name" href="#!">
+                          Most recent
+                        </a>
+                        <a class="dropdown-item sort" data-sort="name" href="#!">
+                          Oldest
+                        </a>
+                        <a class="dropdown-item sort" data-sort="name" href="#!">
+                          A - Z
+                        </a>
+                        <a class="dropdown-item sort" data-sort="name" href="#!">
+                          Z - A
+                        </a>
+                      </div>
+
+                    </div>
+    
+                  </div>
+                </div> <!-- / .row -->
+              </div>
+              <div class="card-header">
+                <div class="row">
+                  <div class="col-12">
+                    
+                    <!-- Form -->
+                    <form>
+                      <div class="input-group input-group-flush input-group-merge">
+                        <input type="search" class="form-control form-control-prepended search" placeholder="Search">
+                        <div class="input-group-prepend">
+                          <div class="input-group-text">
+                            <span class="fe fe-search"></span>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+
+                  </div>
+                </div> <!-- / .row -->
+              </div>
+              <div class="card-body">
+
+                <!-- List -->
+                <ul class="list-group list-group-lg list-group-flush list my-n4">
+                  <li class="list-group-item px-0">
+                    
+                    <div class="row align-items-center">
+                      <div class="col-auto">
+                        
+                        <!-- Avatar -->
+                        <a href="#!" class="avatar avatar-lg">
+                          <img src="/packs/media/images/files/file-1-6a9e16bf196d333e0949c2befdf6c60d.jpg" alt="..." class="avatar-img rounded">
+                        </a>
+
+                      </div>
+                      <div class="col ml-n2">
+
+                        <!-- Title -->
+                        <h4 class="card-title mb-1 name">
+                          <a href="#!">Launchday Logo</a>
+                        </h4>
+
+                        <!-- Text -->
+                        <p class="card-text small text-muted mb-1">
+                          2.5kb SVG
+                        </p>
+
+                        <!-- Time -->
+                        <p class="card-text small text-muted">
+                          Uploaded by Dianna Smiley on <time datetime="2018-01-03">Jan 3, 2018</time>
+                        </p>
+                        
+                      </div>
+                      <div class="col-auto">
+                        
+                        <!-- Button -->
+                        <a href="#!" class="btn btn-sm btn-white d-none d-md-inline-block">
+                          Download
+                        </a>
+
+                      </div>
+                      <div class="col-auto">
+                        
+                        <!-- Dropdown -->
+                        <div class="dropdown">
+                          <a href="#" class="dropdown-ellipses dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fe fe-more-vertical"></i>
+                          </a>
+                          <div class="dropdown-menu dropdown-menu-right">
+                            <a href="#!" class="dropdown-item">
+                              Action
+                            </a>
+                            <a href="#!" class="dropdown-item">
+                              Another action
+                            </a>
+                            <a href="#!" class="dropdown-item">
+                              Something else here
+                            </a>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div> <!-- / .row -->
+
+                  </li>
+                  <li class="list-group-item px-0">
+                    
+                    <div class="row align-items-center">
+                      <div class="col-auto">
+                        
+                        <!-- Avatar -->
+                        <a href="#!" class="avatar avatar-lg">
+                          <img src="/packs/media/images/files/file-2-6f5a9f762d8553e8f820e6b271f12a06.jpg" alt="..." class="avatar-img rounded">
+                        </a>
+
+                      </div>
+                      <div class="col ml-n2">
+
+                        <!-- Title -->
+                        <h4 class="card-title mb-1 name">
+                          <a href="#!">Example Grid</a>
+                        </h4>
+
+                        <!-- Text -->
+                        <p class="card-text small text-muted mb-1">
+                          1.5mb PNG
+                        </p>
+
+                        <!-- Time -->
+                        <p class="card-text small text-muted">
+                          Uploaded by Dianna Smiley on <time datetime="2018-01-03">Jan 3, 2018</time>
+                        </p>
+                        
+                      </div>
+                      <div class="col-auto">
+                        
+                        <!-- Button -->
+                        <a href="#!" class="btn btn-sm btn-white d-none d-md-inline-block">
+                          Download
+                        </a>
+
+                      </div>
+                      <div class="col-auto">
+                        
+                        <!-- Dropdown -->
+                        <div class="dropdown">
+                          <a href="#" class="dropdown-ellipses dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fe fe-more-vertical"></i>
+                          </a>
+                          <div class="dropdown-menu dropdown-menu-right">
+                            <a href="#!" class="dropdown-item">
+                              Action
+                            </a>
+                            <a href="#!" class="dropdown-item">
+                              Another action
+                            </a>
+                            <a href="#!" class="dropdown-item">
+                              Something else here
+                            </a>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div> <!-- / .row -->
+
+                  </li>
+                  <li class="list-group-item px-0">
+                    
+                    <div class="row align-items-center">
+                      <div class="col-auto">
+                        
+                        <!-- Avatar -->
+                        <a href="#!" class="avatar avatar-lg">
+                          <span class="avatar-title rounded bg-white text-secondary">
+                            <span class="fe fe-folder"></span>
+                          </span>
+                        </a>
+
+                      </div>
+                      <div class="col ml-n2">
+
+                        <!-- Title -->
+                        <h4 class="card-title mb-1 name">
+                          <a href="#!">Screenshot Collection</a>
+                        </h4>
+
+                        <!-- Text -->
+                        <p class="card-text small text-muted mb-1">
+                          6.9mb directory
+                        </p>
+
+                        <!-- Time -->
+                        <p class="card-text small text-muted">
+                          Uploaded by Dianna Smiley on <time datetime="2018-01-03">Jan 3, 2018</time>
+                        </p>
+                        
+                      </div>
+                      <div class="col-auto">
+                        
+                        <!-- Button -->
+                        <a href="#!" class="btn btn-sm btn-white d-none d-md-inline-block">
+                          Download
+                        </a>
+
+                      </div>
+                      <div class="col-auto">
+                        
+                        <!-- Dropdown -->
+                        <div class="dropdown">
+                          <a href="#" class="dropdown-ellipses dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fe fe-more-vertical"></i>
+                          </a>
+                          <div class="dropdown-menu dropdown-menu-right">
+                            <a href="#!" class="dropdown-item">
+                              Action
+                            </a>
+                            <a href="#!" class="dropdown-item">
+                              Another action
+                            </a>
+                            <a href="#!" class="dropdown-item">
+                              Something else here
+                            </a>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div> <!-- / .row -->
+
+                  </li>
+                  <li class="list-group-item px-0">
+                    
+                    <div class="row align-items-center">
+                      <div class="col-auto">
+                        
+                        <!-- Avatar -->
+                        <a href="#!" class="avatar avatar-lg">
+                          <span class="avatar-title rounded bg-white text-secondary">
+                            <span class="fe fe-package"></span>
+                          </span>
+                        </a>
+
+                      </div>
+                      <div class="col ml-n2">
+
+                        <!-- Title -->
+                        <h4 class="card-title mb-1 name">
+                          <a href="#!">Database migration (compressed)</a>
+                        </h4>
+
+                        <!-- Text -->
+                        <p class="card-text small text-muted mb-1">
+                          5.9mb ZIP
+                        </p>
+
+                        <!-- Time -->
+                        <p class="card-text small text-muted">
+                          Uploaded by Dianna Smiley on <time datetime="2018-01-03">Jan 3, 2018</time>
+                        </p>
+                        
+                      </div>
+                      <div class="col-auto">
+                        
+                        <!-- Button -->
+                        <a href="#!" class="btn btn-sm btn-white d-none d-md-inline-block">
+                          Download
+                        </a>
+
+                      </div>
+                      <div class="col-auto">
+                        
+                        <!-- Dropdown -->
+                        <div class="dropdown">
+                          <a href="#" class="dropdown-ellipses dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fe fe-more-vertical"></i>
+                          </a>
+                          <div class="dropdown-menu dropdown-menu-right">
+                            <a href="#!" class="dropdown-item">
+                              Action
+                            </a>
+                            <a href="#!" class="dropdown-item">
+                              Another action
+                            </a>
+                            <a href="#!" class="dropdown-item">
+                              Something else here
+                            </a>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div> <!-- / .row -->
+
+                  </li>
+                  <li class="list-group-item px-0">
+                    
+                    <div class="row align-items-center">
+                      <div class="col-auto">
+                        
+                        <!-- Avatar -->
+                        <a href="#!" class="avatar avatar-lg">
+                          <img src="/packs/media/images/files/file-3-25d168d07d998a0c4ec8723eeaf6d64f.jpg" alt="..." class="avatar-img rounded">
+                        </a>
+
+                      </div>
+                      <div class="col ml-n2">
+
+                        <!-- Title -->
+                        <h4 class="card-title mb-1 name">
+                          <a href="#!">Launchday Cover</a>
+                        </h4>
+
+                        <!-- Text -->
+                        <p class="card-text small text-muted mb-1">
+                          750kb JPG
+                        </p>
+
+                        <!-- Time -->
+                        <p class="card-text small text-muted">
+                          Uploaded by Dianna Smiley on <time datetime="2018-01-03">Jan 3, 2018</time>
+                        </p>
+                        
+                      </div>
+                      <div class="col-auto">
+                        
+                        <!-- Button -->
+                        <a href="#!" class="btn btn-sm btn-white d-none d-md-inline-block">
+                          Download
+                        </a>
+
+                      </div>
+                      <div class="col-auto">
+                        
+                        <!-- Dropdown -->
+                        <div class="dropdown">
+                          <a href="#" class="dropdown-ellipses dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fe fe-more-vertical"></i>
+                          </a>
+                          <div class="dropdown-menu dropdown-menu-right">
+                            <a href="#!" class="dropdown-item">
+                              Action
+                            </a>
+                            <a href="#!" class="dropdown-item">
+                              Another action
+                            </a>
+                            <a href="#!" class="dropdown-item">
+                              Something else here
+                            </a>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div> <!-- / .row -->
+
+                  </li>
+                  <li class="list-group-item px-0">
+                    
+                    <div class="row align-items-center">
+                      <div class="col-auto">
+                        
+                        <!-- Avatar -->
+                        <a href="#!" class="avatar avatar-lg">
+                          <span class="avatar-title rounded bg-white text-secondary">
+                            <span class="fe fe-film"></span>
+                          </span>
+                        </a>
+
+                      </div>
+                      <div class="col ml-n2">
+
+                        <!-- Title -->
+                        <h4 class="card-title mb-1 name">
+                          <a href="#!">Prototype Screencap</a>
+                        </h4>
+
+                        <!-- Text -->
+                        <p class="card-text small text-muted mb-1">
+                          23.5mb MOV
+                        </p>
+
+                        <!-- Time -->
+                        <p class="card-text small text-muted">
+                          Uploaded by Dianna Smiley on <time datetime="2018-01-03">Jan 3, 2018</time>
+                        </p>
+                        
+                      </div>
+                      <div class="col-auto">
+                        
+                        <!-- Button -->
+                        <a href="#!" class="btn btn-sm btn-white d-none d-md-inline-block">
+                          Download
+                        </a>
+
+                      </div>
+                      <div class="col-auto">
+                        
+                        <!-- Dropdown -->
+                        <div class="dropdown">
+                          <a href="#" class="dropdown-ellipses dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fe fe-more-vertical"></i>
+                          </a>
+                          <div class="dropdown-menu dropdown-menu-right">
+                            <a href="#!" class="dropdown-item">
+                              Action
+                            </a>
+                            <a href="#!" class="dropdown-item">
+                              Another action
+                            </a>
+                            <a href="#!" class="dropdown-item">
+                              Something else here
+                            </a>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div> <!-- / .row -->
+
+                  </li>
+                  <li class="list-group-item px-0">
+                    
+                    <div class="row align-items-center">
+                      <div class="col-auto">
+                        
+                        <!-- Avatar -->
+                        <a href="#!" class="avatar avatar-lg">
+                          <img src="/packs/media/images/files/file-4-b0d6d7f0484f1d58b3dc708619a14bb2.jpg" alt="..." class="avatar-img rounded">
+                        </a>
+
+                      </div>
+                      <div class="col ml-n2">
+
+                        <!-- Title -->
+                        <h4 class="card-title mb-1 name">
+                          <a href="#!">Header block example</a>
+                        </h4>
+
+                        <!-- Text -->
+                        <p class="card-text small text-muted mb-1">
+                          1.2mb PNG
+                        </p>
+
+                        <!-- Time -->
+                        <p class="card-text small text-muted">
+                          Uploaded by Dianna Smiley on <time datetime="2018-01-03">Jan 3, 2018</time>
+                        </p>
+                        
+                      </div>
+                      <div class="col-auto">
+                        
+                        <!-- Button -->
+                        <a href="#!" class="btn btn-sm btn-white d-none d-md-inline-block">
+                          Download
+                        </a>
+
+                      </div>
+                      <div class="col-auto">
+                        
+                        <!-- Dropdown -->
+                        <div class="dropdown">
+                          <a href="#" class="dropdown-ellipses dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fe fe-more-vertical"></i>
+                          </a>
+                          <div class="dropdown-menu dropdown-menu-right">
+                            <a href="#!" class="dropdown-item">
+                              Action
+                            </a>
+                            <a href="#!" class="dropdown-item">
+                              Another action
+                            </a>
+                            <a href="#!" class="dropdown-item">
+                              Something else here
+                            </a>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div> <!-- / .row -->
+
+                  </li>
+                  <li class="list-group-item px-0">
+                    
+                    <div class="row align-items-center">
+                      <div class="col-auto">
+                        
+                        <!-- Avatar -->
+                        <a href="#!" class="avatar avatar-lg">
+                          <span class="avatar-title rounded bg-white text-secondary">
+                            <span class="fe fe-pie-chart"></span>
+                          </span>
+                        </a>
+
+                      </div>
+                      <div class="col ml-n2">
+
+                        <!-- Title -->
+                        <h4 class="card-title mb-1 name">
+                          <a href="#!">User test results slides</a>
+                        </h4>
+
+                        <!-- Text -->
+                        <p class="card-text small text-muted mb-1">
+                          1.1mb PPTX
+                        </p>
+
+                        <!-- Time -->
+                        <p class="card-text small text-muted">
+                          Uploaded by Dianna Smiley on <time datetime="2018-01-03">Jan 3, 2018</time>
+                        </p>
+                        
+                      </div>
+                      <div class="col-auto">
+                        
+                        <!-- Button -->
+                        <a href="#!" class="btn btn-sm btn-white d-none d-md-inline-block">
+                          Download
+                        </a>
+
+                      </div>
+                      <div class="col-auto">
+                        
+                        <!-- Dropdown -->
+                        <div class="dropdown">
+                          <a href="#" class="dropdown-ellipses dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fe fe-more-vertical"></i>
+                          </a>
+                          <div class="dropdown-menu dropdown-menu-right">
+                            <a href="#!" class="dropdown-item">
+                              Action
+                            </a>
+                            <a href="#!" class="dropdown-item">
+                              Another action
+                            </a>
+                            <a href="#!" class="dropdown-item">
+                              Something else here
+                            </a>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div> <!-- / .row -->
+
+                  </li>
+                </ul>
+
+              </div>
+            </div>
+
+          </div>
+        </div> <!-- / .row -->
+      </div>
+
+     
+      </div>
+      
+    </div>

@@ -1,0 +1,538 @@
+
+<%= render 'partials/modals' %>
+<%= render 'partials/sidebar', locals: {category: :pages, subcategory: :project} %>
+<%= render 'partials/sidebar-sm', locals: {category: :pages, subcategory: :project} %>
+<%= render 'partials/topnav', locals: {category: :pages, subcategory: :project} %>
+<div class="main-content">
+
+      <%= render 'partials/topbar' %>
+
+      <!-- HEADER -->
+      <div class="header">
+        <div class="container-fluid">
+          
+          <!-- Body -->
+          <div class="header-body">
+            <div class="row">
+              <div class="col-auto">
+
+                <!-- Avatar -->
+                <div class="avatar avatar-lg">
+                  <img src="<%= asset_pack_path 'media/images/avatars/profiles/avatar-1.jpg' %>" alt="..." class="avatar-img rounded-circle" >
+                </div>
+
+              </div>
+              <div class="col ml-n3 ml-md-n2">
+                
+                <!-- Pretitle -->
+                <h6 class="header-pretitle">
+                  <a href="manage_team_people.html"><span class="fe fe-chevron-left"></span></a> Team members
+                </h6>
+
+                <!-- Title -->
+                <h2 class="header-title">
+                  Dianna Smiley
+                </h2>
+
+              </div>
+              <div class="col-md-12 col-lg-4 col-xl-3">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="row align-items-center">
+                      <div class="col">
+
+                        <h6 class="card-title text-uppercase text-muted mb-2">
+                          Wallet
+                        </h6>
+                        
+                        <span class="h2 mb-0">
+                          £20.00
+                        </span>
+
+                      </div>
+                      <div class="col-auto">
+                        
+                        <span class="h2 fe fe-dollar-sign text-muted mb-0"></span>
+
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+
+            <div class="row align-items-center">
+              <div class="col">
+                
+                <!-- Nav -->
+                <ul class="nav nav-tabs nav-overflow header-tabs">
+                  <li class="nav-item">
+                    <a href="for_you.html" class="nav-link active">
+                      Perks
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      Rewards
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      Recognition <span class="badge badge-soft-primary">1 new</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      Awards
+                    </a>
+                  </li>
+                </ul>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div> <!-- / .header -->
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xl-12 col-md-12 col-sm-12">
+            <div class="alert alert-success" style="display: none;">
+              You've been gifted £20.00 to choose your own, personalised perks from our <a href="https://www.w3schools.com" class="text-white">Marketplace</a>
+
+              <!-- Close -->
+              <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">×</span>
+              </button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+<div class="container-fluid">
+        <div class="row">
+          <div class="col-xl-12 col-md-12 col-sm-12">
+            <div class="card">
+              <div class="card-header">
+                <div class="row align-items-center">
+                  <div class="col">
+                    
+                    <!-- Title -->
+                    <h4 class="card-header-title">
+                      Your personalised perks
+                    </h4>
+
+                  </div>
+                  <div class="col-auto">
+
+                    <div class="dropdown">
+
+                      <!-- Toggle -->
+                      <a href="#" class="small text-muted dropdown-toggle" data-toggle="dropdown">
+                        Recently added
+                      </a>
+
+                      <!-- Menu -->
+                      <div class="dropdown-menu dropdown-menu-right">
+                        <a class="dropdown-item sort" data-sort="name" href="#!">
+                          Recently added
+                        </a>
+                        <a class="dropdown-item sort" data-sort="name" href="#!">
+                          A - Z
+                        </a>
+                        <a class="dropdown-item sort" data-sort="name" href="#!">
+                          Z - A
+                        </a>
+                      </div>
+
+                    </div>
+                    
+                  </div>
+                </div> <!-- / .row -->
+              </div>
+
+              <div class="card-header">
+                <div class="row">
+                  <div class="col-12">
+                    
+                    <!-- Form -->
+                    <form>
+                      <div class="input-group input-group-flush input-group-merge">
+                        <input type="search" class="form-control form-control-prepended search" placeholder="Search">
+                        <div class="input-group-prepend">
+                          <div class="input-group-text">
+                            <span class="fe fe-search"></span>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+
+                  </div>
+                </div> <!-- / .row -->
+              </div>
+
+              <div class="card-body">
+
+                <div class="row align-items-center">
+                  <div class="col-auto">
+                    
+                    <!-- Avatar -->
+                    <a href="#" class="avatar avatar-4by3">
+                      <img src="<%= asset_pack_path 'media/images/brands/credit.png' %>" alt="..." class="avatar-img rounded">
+                    </a>
+
+                  </div>
+                  <div class="col ml-n2">
+
+                    <!-- Title -->
+                    <h4 class="card-title mb-1">
+                      <a href="#">£20.00</a>
+                    </h4>
+
+                    <!-- Time -->
+                    <p class="card-text small text-muted">
+                      £20.00 to pick the perks that matter most from the Marketplace
+                    </p>
+                    
+                  </div>
+                  <div class="col-auto">
+                    
+                    <button type="button" class="btn btn-white btn-sm">
+                      Manage
+                    </button>
+                    
+                  </div>
+                </div> <!-- / .row -->
+               <!-- Divider -->
+
+                <hr>
+
+                <div class="row align-items-center">
+                  <div class="col-auto">
+                    
+                    <!-- Avatar -->
+                    <a href="#" class="avatar avatar-4by3">
+                      <img src="/packs/media/images/brands/ha-16e785ca0184ba5a590f7e7496846940.png" alt="..." class="avatar-img rounded">
+                    </a>
+
+                  </div>
+                  <div class="col ml-n2">
+
+                    <!-- Title -->
+                    <h4 class="card-title mb-1">
+                      <a href="#">Health Assured</a>
+                    </h4>
+
+                    <!-- Time -->
+                    <p class="card-text small text-muted">
+                      24/7 access to compassionate support (EAP)
+                      <span class="badge badge-soft-success text-small ml-2" style="font-size: 20%;">Health & Wellbeing</span>
+                    </p>
+                    
+                  </div>
+                  <div class="col-auto">
+                    
+                    <button type="button" class="btn btn-white btn-sm">
+                      Manage
+                    </button>
+                    
+                  </div>
+                </div> <!-- / .row -->
+
+                <!-- Divider -->
+
+                <hr>
+
+                <div class="row align-items-center">
+                  <div class="col-auto">
+                    
+                    <!-- Avatar -->
+                    <a href="#" class="avatar avatar-4by3">
+                      <img src="/packs/media/images/brands/DCA-02f80a36006108df5990dc4c31910f3e.png" alt="..." class="avatar-img rounded">
+                    </a>
+
+                  </div>
+                  <div class="col ml-n2">
+
+                    <!-- Title -->
+                    <h4 class="card-title mb-1">
+                      <a href="#">Dr Care Anywhere </a>
+                    </h4>
+
+                    <!-- Time -->
+                    <p class="card-text small text-muted">
+                      <time datetime="2018-05-24">24/7 access to an online GP</time> <span class="badge badge-soft-success text-small ml-2" style="font-size: 20%;">Health & Wellbeing</span>
+                    </p>
+                    
+                  </div>
+                  <div class="col-auto">
+                    
+                    <button type="button" class="btn btn-white btn-sm">
+                      Manage
+                    </button>
+                    
+                  </div>
+                </div> <!-- / .row -->
+
+                <!-- Divider -->
+                <hr>
+
+                <div class="row align-items-center">
+                  <div class="col-auto">
+                    
+                    <!-- Avatar -->
+                    <a href="#" class="avatar avatar-4by3">
+                      <img src="/packs/media/images/brands/calm-622d27e2701e6ae45e8881da20e31fc3.png" alt="..." class="avatar-img rounded">
+                    </a>
+
+                  </div>
+                  <div class="col ml-n2">
+
+                    <!-- Title -->
+                    <h4 class="card-title mb-1">
+                      <a href="#">Calm</a>
+                    </h4>
+
+                    <!-- Time -->
+                    <p class="card-text small text-muted">
+                      <time datetime="2018-05-24">Improve your meditation and sleep</time> <span class="badge badge-soft-success text-small ml-2" style="font-size: 20%;">Health & Wellbeing</span>
+                    </p>
+                    
+                  </div>
+                  <div class="col-auto">
+                    
+                    <button type="button" class="btn btn-white btn-sm">
+                      Manage
+                    </button>
+                    
+                  </div>
+                </div> <!-- / .row -->
+
+                <!-- Divider -->
+                <hr>
+
+                <div class="row align-items-center">
+                  <div class="col-auto">
+                    
+                    <!-- Avatar -->
+                    <a href="#" class="avatar avatar-4by3">
+                      <img src="/packs/media/images/brands/hastee-b0a73800fc39902b06fa43669490b72f.png" alt="..." class="avatar-img rounded">
+                    </a>
+
+                  </div>
+                  <div class="col ml-n2">
+
+                    <!-- Title -->
+                    <h4 class="card-title mb-1">
+                      <a href="#">Hastee Pay </a>
+                    </h4>
+
+                    <!-- Time -->
+                    <p class="card-text small text-muted">
+                      <time datetime="2018-05-24">Get paid early - on demand</time>
+                      <span class="badge badge-soft-success text-small ml-2" style="font-size: 20%;">Health & Wellbeing</span>
+                    </p>
+                    
+                  </div>
+                  <div class="col-auto">
+                    
+                   <button type="button" class="btn btn-white btn-sm">
+                      Manage
+                    </button>
+                    
+                  </div>
+                </div> <!-- / .row -->
+
+                <!-- Divider -->
+                <hr>
+
+                <div class="row align-items-center">
+                  <div class="col-auto">
+                    
+                    <!-- Avatar -->
+                    <a href="#" class="avatar avatar-4by3">
+                      <img src="/packs/media/images/brands/magpie-be2e422392811203824cdfe737b79bef.png" alt="..." class="avatar-img rounded">
+                    </a>
+
+                  </div>
+                  <div class="col ml-n2">
+
+                    <!-- Title -->
+                    <h4 class="card-title mb-1">
+                      <a href="#">Magpie</a>
+                    </h4>
+
+                    <!-- Time -->
+                    <p class="card-text small text-muted">
+                      <time datetime="2018-05-24">AI-driven learning and development</time> <span class="badge badge-soft-info text-small ml-2" style="font-size: 20%;">Learning & Growth</span>
+                    </p>
+                    
+                  </div>
+                  <div class="col-auto">
+                    
+                   <button type="button" class="btn btn-white btn-sm">
+                      Manage
+                    </button>
+                    
+                  </div>
+                </div> <!-- / .row -->
+
+                
+
+                <!-- Divider -->
+                <hr>
+
+                <div class="row align-items-center">
+                  <div class="col-auto">
+                    
+                    <!-- Avatar -->
+                    <a href="#" class="avatar avatar-4by3">
+                      <img src="/packs/media/images/brands/nero-5a80b99bc65c3d29c025926366d4e37f.png" alt="..." class="avatar-img rounded">
+                    </a>
+
+                  </div>
+                  <div class="col ml-n2">
+
+                    <!-- Title -->
+                    <h4 class="card-title mb-1">
+                      <a href="#">Cafe Nero </a>
+                    </h4>
+
+                    <!-- Time -->
+                    <p class="card-text small text-muted">
+                      <time datetime="2018-05-24">1 free coffee every week</time> <span class="badge badge-soft-warning text-small ml-2" style="font-size: 20%;">Lifestyle & entertainment</span>
+                    </p>
+                    
+                  </div>
+                  <div class="col-auto">
+                    
+                    <button type="button" class="btn btn-white btn-sm">
+                      Manage
+                    </button>
+
+                  </div>
+
+                </div> <!-- / .row -->
+
+                <!-- Divider -->
+                <hr>
+
+                <div class="row align-items-center">
+                  <div class="col-auto">
+                    
+                    <!-- Avatar -->
+                    <a href="#" class="avatar avatar-4by3">
+                      <img src="/packs/media/images/brands/odeon-85aad3999b976a4b4bc9a53cdeda23f6.png" alt="..." class="avatar-img rounded">
+                    </a>
+
+                  </div>
+                  <div class="col ml-n2">
+
+                    <!-- Title -->
+                    <h4 class="card-title mb-1">
+                      <a href="#">Odeon </a>
+                    </h4>
+
+                    <!-- Time -->
+                    <p class="card-text small text-muted">
+                      <time datetime="2018-05-24">1 free cinema ticket every month</time> <span class="badge badge-soft-warning text-small ml-2" style="font-size: 20%;">Lifestyle & entertainment</span>
+                    </p>
+                    
+                  </div>
+                  <div class="col-auto">
+                    
+                    <button type="button" class="btn btn-white btn-sm">
+                      Manage
+                    </button>
+
+                  </div>
+                </div> <!-- / .row -->
+
+              </div> <!-- / .card-body -->
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-12 col-sm-12" style="display:none;">
+
+            <div class="card">
+                <div class="card-body text-center">
+                  <div class="row justify-content-center">
+                    <div class="col-md-6 col-xl-12 col-sm-12">
+                  
+                      <!-- Image -->
+                      <img src="/packs/media/images/illustrations/save-e1bbd4bab286c6392dfd06ebabdcafc7.svg" alt="..." class="img-fluid mt-n5 mb-4" style="max-width: 172px;">
+
+                      <!-- Title -->
+                      <h2 class="card-header-title mb-2">
+                        Save money
+                      </h2>
+
+                      <!-- Content -->
+                      <p class="text-muted">
+                        Access hundreds of instant discount codes across our carefully selected retailers
+                      </p>
+
+                      <!-- Button -->
+                      <a href="#!" class="btn btn-primary lift">
+                        Explore
+                      </a>
+                    
+                    </div>
+                  </div> <!-- / .row -->
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-body text-center">
+                  <div class="row justify-content-center">
+                    <div class="col-md-6 col-xl-12 col-sm-12">
+                  
+                      <!-- Image -->
+                      <img src="/packs/media/images/illustrations/earn-8fe8b2ea80671c8e2da6731323365d8b.svg" alt="..." class="img-fluid mt-n5 mb-4" style="max-width: 172px;">
+
+                      <!-- Title -->
+                      <h2 class="mb-2">
+                        Earn money back <span class="badge badge-soft-primary">Beta</span>
+                      </h2>
+
+                      <!-- Content -->
+                      <p class="text-muted">
+                        Link your card and earn money back when you spend locally or online
+                      </p>
+
+                      <!-- Button -->
+                      <a href="#!" class="btn btn-primary lift">
+                        Explore
+                      </a>
+                    
+                    </div>
+                  </div> <!-- / .row -->
+                </div>
+              </div>
+
+
+            </div>
+
+            
+
+      
+       
+
+        
+
+    <script src="/packs/js/application-0f5494508ed28de5e9bd.js"></script>
+
+  
+
+</div></div></div>
+
+
+            
+
+      
+       
+
+        

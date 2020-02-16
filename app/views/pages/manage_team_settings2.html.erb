@@ -1,0 +1,129 @@
+
+<%= render 'partials/modals' %>
+<%= render 'partials/sidebar', locals: {category: :pages, subcategory: :project} %>
+<%= render 'partials/sidebar-sm', locals: {category: :pages, subcategory: :project} %>
+<%= render 'partials/topnav', locals: {category: :pages, subcategory: :project} %>
+<div class="main-content">
+
+      <%= render 'partials/topbar' %>
+
+      <!-- HEADER -->
+      <div class="header">
+        <div class="container-fluid">
+          
+          <!-- Body -->
+          <div class="header-body">
+            <div class="row">
+              <div class="col-md-12 col-lg-8 col-xl-9">
+                
+ <!-- Pretitle -->
+                <h6 class="header-pretitle">
+                  Manage your team
+                </h6>
+
+                <!-- Title -->
+                <h1 class="header-title">
+                  Team Name
+                </h1>
+
+              </div>
+              <div class="col-md-12 col-lg-4 col-xl-3">
+                 <a href="yourwalletadmin" class="card">
+                  <div class="card-body">
+                    <div class="row align-items-center">
+                      <div class="col">
+
+                        <h6 class="card-title text-uppercase text-muted mb-2">
+                          Team wallet
+                        </h6>
+                        
+                        <span class="h2 mb-0">
+                          £500.00
+                        </span>
+
+                      </div>
+                      <div class="col-auto">
+                        
+                        <span class="h2 fe fe-dollar-sign text-muted mb-0"></span>
+
+                      </div>
+                    </div>
+
+                  </div>
+                </a>
+
+                
+              </div>
+
+            </div> <!-- / .row -->
+          
+            <div class="row align-items-center">
+              <div class="col">
+                
+                <!-- Nav -->
+                <ul class="nav nav-tabs nav-overflow header-tabs" style="margin-top: -40px;">
+                  <li class="nav-item">
+                    <a href="/manage_team.html" class="nav-link">
+                      Insights
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="/manage_team_people.html" class="nav-link">
+                      Members
+                    </a>
+                  </li>
+                   <li class="nav-item">
+                    <a href="/manage_team_sub.html" class="nav-link">
+                      Sub teams
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="/manage_team_rewards.html" class="nav-link active">
+                      Add-ons <span class="badge badge-soft-primary ml-1 mt-n1">New</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      Settings
+                    </a>
+                  </li>
+                </ul>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div> <!-- / .header -->
+
+      <!-- CONTENT -->
+      <div class="">
+        <div class="container">
+            <div class="card card-inactive">
+              <div class="card-body text-center">
+
+                <!-- Image -->
+                <img src="/packs/media/images/illustrations/reward-3e150442a3b39510d832ffc4212af9ae.svg" alt="..." class="img-fluid mb-4 mt-1" style="max-width: 182px;">
+                
+                <!-- Title -->
+                <h2>
+                  Give your team access to our exclusive employee add-ons
+                </h2>
+
+                <!-- Subtitle -->
+
+                <p class="text-muted">
+                  From medical to insurance, wellbeing to learning. Explore our collection
+                </p>
+
+                <!-- Button -->
+                <a href="#!" class="btn btn-primary">
+                  Explore
+                </a>
+
+              </div>
+            </div>
+            
+          </div>
+
+
